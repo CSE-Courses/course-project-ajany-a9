@@ -807,6 +807,7 @@ drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id Assignments
 id CTRL
 id Class
 id FUNCTION
@@ -892,6 +893,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id button
 id buttonPanel
 id calcButton
 id center
@@ -927,6 +929,7 @@ id dragUp
 id easeIn
 id easeInOut
 id easeOut
+id editText2
 id edit_query
 id end
 id expand_activities_button
@@ -962,6 +965,7 @@ id line1
 id line3
 id linear
 id listMode
+id listView
 id list_item
 id message
 id middle
@@ -1050,7 +1054,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id time
 id title
 id titleDividerNoCustom
@@ -1111,6 +1114,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_grade
 layout activity_main
+layout activity_tasks
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -1151,7 +1155,9 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_assignment
 string app_name
+string description
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

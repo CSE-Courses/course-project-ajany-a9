@@ -20,6 +20,10 @@
             android:name=".GradeCalc"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".AssignmentScreen"
+            android:label="BestStudy" >
+        </activity>
     </application>
 
 </manifest>
