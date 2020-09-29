@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             public void onClick(View v) {
 
+
             }
         });
 
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.Class.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
+                Intent i = new Intent (MainActivity.this, Courseclick.class);
+                startActivity(i);
 
             }
         });
