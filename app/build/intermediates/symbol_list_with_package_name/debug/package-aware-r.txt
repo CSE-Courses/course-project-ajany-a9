@@ -876,6 +876,8 @@ id actions
 id activity_chooser_view_content
 id add
 id addButton
+id addClassButton
+id addClassLayout
 id alertTitle
 id aligned
 id always
@@ -903,7 +905,11 @@ id chains
 id checkbox
 id checked
 id chronometer
+id classNameEText
+id classNameLayout
+id classNameText
 id collapseActionView
+id colonOfAddClassLayout
 id content
 id contentPanel
 id cos
@@ -932,6 +938,7 @@ id easeOut
 id editText2
 id edit_query
 id end
+id etireOutsideFrame
 id expand_activities_button
 id expanded_menu
 id flip
@@ -1016,6 +1023,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secondColonOfAddClassLayput
 id select_dialog_listview
 id shortcut
 id showCustom
@@ -1055,9 +1063,17 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id time
+id timeFifthDigitEText
+id timeFirstDigitEText
+id timeForthDigitEText
+id timeSecondDigitEText
+id timeSixthDigitEText
+id timeTestView
+id timeThirdDigitEText
 id title
 id titleDividerNoCustom
 id title_template
+id toOfAddClassLayout
 id toggle
 id top
 id topPanel
@@ -1069,6 +1085,10 @@ id uniform
 id up
 id useLogo
 id visible
+id weekScheduleTableLayout
+id weekdayEText
+id weekdayLayout
+id weekdayText
 id withText
 id wrap
 id wrap_content
@@ -1112,6 +1132,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout acctivity_weekschedule
 layout activity_grade
 layout activity_main
 layout activity_tasks

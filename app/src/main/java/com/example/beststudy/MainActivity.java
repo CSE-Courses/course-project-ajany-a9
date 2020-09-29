@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.Schedule.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this, WeekSchedule.class);
+                startActivity(intent);
             }
         });
 

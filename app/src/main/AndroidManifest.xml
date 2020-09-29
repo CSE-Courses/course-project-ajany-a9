@@ -24,6 +24,10 @@
             android:name=".AssignmentScreen"
             android:label="BestStudy" >
         </activity>
+        <activity
+            android:name=".WeekSchedule"
+            android:label="BestStudy" >
+        </activity>
     </application>
 
 </manifest>
