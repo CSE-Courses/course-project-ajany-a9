@@ -13,6 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
+/**this class create conlon and data array to hold the initial data in the app table of week schedule**/
+
 class initialSchedule{
     private String[] initalCoulum={" Time","   Monday","   Tuesday","   Wednesday","   Thursday","   Friday"};
 
@@ -50,6 +52,7 @@ class initialSchedule{
     }
 }
 
+//implement the data from initialSchedule to the table in app schedule//
 public class WeekSchedule extends AppCompatActivity {
     private ArrayList<TableRow> rowList = new ArrayList<TableRow>();
     private TableLayout weekScheduleTableLayout;
@@ -71,6 +74,7 @@ public class WeekSchedule extends AppCompatActivity {
         String initialData[][];
         initialData=arrayAllData.getData();
 
+        // use a loop to implement the heater//
         int i ;
         TableRow row0=new TableRow(this);
         for(i=0;i<6;i++){
@@ -80,6 +84,7 @@ public class WeekSchedule extends AppCompatActivity {
         }
         this.rowList.add(row0);
 
+        // use the inner loop to implement the row of data(time of the schedule)//
         int j;
         int p;
         for(j=0;j<48;j++){
@@ -97,6 +102,7 @@ public class WeekSchedule extends AppCompatActivity {
         return this.rowList;
     }
 
+    // add the table rows to table layout//
     public void initialWeekScheduleTable(){
         this.weekScheduleTableLayout = (TableLayout) findViewById(R.id.weekScheduleTableLayout);
         ArrayList<TableRow> tableArrayList=this.initialArrayListOfTable();
