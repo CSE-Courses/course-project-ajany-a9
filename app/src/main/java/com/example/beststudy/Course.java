@@ -59,7 +59,7 @@ public class Course extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_course);
+        setContentView(R.layout.activity_courses);
 
         saved = findViewById(R.id.Savebutton);
         courseN = findViewById(R.id.editTextCourseName);
