@@ -7,18 +7,25 @@
     tools:context=".Courseclick">
 
     <LinearLayout
-        android:layout_width="391dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
         android:layout_height="783dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/AllCoursesTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="All Courses:"
-            android:textSize="30dp"/>
+            android:textSize="30dp" />
 
 
         <Space
@@ -29,18 +36,25 @@
             android:id="@+id/CourseList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text = "All Courses"/>
+            android:text="All Courses" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="90dp" />
+
+        <TextView
+            android:id="@+id/zoomPart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Zoom Link"
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/NewClass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Add New Course"
-            android:textSize="30dp"/>
+            android:textSize="30dp" />
 
         <Space
             android:layout_width="match_parent"
@@ -51,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Show Courses"
-            android:textSize = "30dp"/>
+            android:textSize="30dp" />
 
 
     </LinearLayout>

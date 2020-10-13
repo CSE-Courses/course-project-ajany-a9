@@ -807,12 +807,16 @@ drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id AllCoursesTitle
+id Appear
 id CTRL
 id Class
+id CourseList
 id FUNCTION
 id Grades
 id META
 id NO_DEBUG
+id NewClass
 id PA_text
 id Professor
 id RelativeLayout1
@@ -821,6 +825,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Savebutton
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -928,6 +933,10 @@ id dragUp
 id easeIn
 id easeInOut
 id easeOut
+id editTextCourseName
+id editTextCourseTime
+id editTextProfName
+id editTextZoomLink
 id edit_query
 id end
 id expand_activities_button
@@ -1057,6 +1066,7 @@ id textView3
 id time
 id title
 id titleDividerNoCustom
+id titleText
 id title_template
 id toggle
 id top
@@ -1072,6 +1082,7 @@ id visible
 id withText
 id wrap
 id wrap_content
+id zoomPart
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
@@ -1112,6 +1123,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_courseclick
+layout activity_courses
 layout activity_grade
 layout activity_main
 layout activity_professor

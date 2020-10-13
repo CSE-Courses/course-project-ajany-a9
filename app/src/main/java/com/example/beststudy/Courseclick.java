@@ -1,8 +1,18 @@
 package com.example.beststudy;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
+import android.text.style.ClickableSpan;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -25,6 +35,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
     ListView CourseList;
     ArrayList<String> allCourse = new ArrayList<>();
     ArrayAdapter<String> adapter;
+    TextView zoomHolder;
 
 
 
@@ -35,6 +46,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
         this.NewClass=(Button)this.findViewById(R.id.NewClass);
         this.ShowCourses = (Button)this.findViewById(R.id.Appear);
         this.CourseList = (ListView)this.findViewById(R.id.CourseList);
+        this.zoomHolder = (TextView)this.findViewById(R.id.zoomPart);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, allCourse);
         CourseList.setAdapter(adapter);
 
@@ -49,6 +61,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
         });
 
         this.ShowCourses.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View v) {
                 /*Add new courses to list view*/
@@ -58,13 +71,29 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     public void addCourse(View view){
         coursename = getIntent().getExtras().getString("CourseName");
         coursetime = getIntent().getExtras().getString("CourseTime");
         profname = getIntent().getExtras().getString("ProfName");
         zoomlink = getIntent().getExtras().getString("ZoomLink");
-        String a = coursename + " " + coursetime + "\n" + profname + " " + zoomlink;
+        int linkEnd = zoomlink.length();
+        zoomHolder.setMovementMethod(LinkMovementMethod.getInstance());
+        SpannableString spannedZoomLink = new SpannableString(zoomlink);
+        final String asLink = Html.toHtml(spannedZoomLink, Html.TO_HTML_PARAGRAPH_LINES_CONSECUTIVE);
+
+        ClickableSpan clickZoomLink = new ClickableSpan() {
+            @Override
+            public void onClick(@NonNull View widget) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(asLink));
+                startActivity(intent);
+            }
+        };
+        spannedZoomLink.setSpan(clickZoomLink, 0, linkEnd, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        zoomHolder.setText(spannedZoomLink);
+        String a = coursename + " " + coursetime + "\n" + profname ;
         adapter.add(a);
+
     }
 
     @Override
