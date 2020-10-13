@@ -11,7 +11,7 @@
 9-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-27:19
+11-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-31:19
 12        android:allowBackup="true"
 12-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -56,6 +56,13 @@
 34            android:label="BestStudy" >
 34-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:25:13-38
 35        </activity>
-36    </application>
-37
-38</manifest>
+36        <activity
+36-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:27:9-30:20
+37            android:name="com.example.beststudy.WeekSchedule"
+37-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:28:13-41
+38            android:label="BestStudy" >
+38-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:29:13-38
+39        </activity>
+40    </application>
+41
+42</manifest>
