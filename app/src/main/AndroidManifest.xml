@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.beststudy">
+    package="com.example.beststudy"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.beststudy.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,17 +27,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GradeCalc"
+            android:name="com.example.beststudy.GradeCalc"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".AssignmentScreen"
+            android:name="com.example.beststudy.AssignmentScreen"
             android:label="BestStudy" >
         </activity>
         <activity
-            android:name=".WeekSchedule"
+            android:name="com.example.beststudy.CalenderReminders"
             android:label="BestStudy" >
         </activity>
+        <activity
+            android:name="com.example.beststudy.WeekSchedule"
+            android:label="BestStudy" >
+        </activity>
+
+        <receiver android:name="com.example.beststudy.NotificationReceiver" />
     </application>
 
 </manifest>

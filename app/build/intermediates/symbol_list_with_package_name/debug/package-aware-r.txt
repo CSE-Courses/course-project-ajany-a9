@@ -790,6 +790,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable ic_baseline_access_alarm_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
@@ -816,6 +817,7 @@ id META
 id NO_DEBUG
 id Professor
 id RelativeLayout1
+id Reminders
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -878,6 +880,7 @@ id add
 id addButton
 id addClassButton
 id addClassLayout
+id add_rem_button
 id alertTitle
 id aligned
 id always
@@ -898,6 +901,7 @@ id bounce
 id button
 id buttonPanel
 id calcButton
+id calender_view
 id center
 id center_vertical
 id chain
@@ -908,6 +912,7 @@ id chronometer
 id classNameEText
 id classNameLayout
 id classNameText
+id clear_rem_button
 id collapseActionView
 id colonOfAddClassLayout
 id content
@@ -915,6 +920,7 @@ id contentPanel
 id cos
 id custom
 id customPanel
+id date_view
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -1002,6 +1008,8 @@ id radio
 id ratio
 id rectangles
 id remButton
+id reminder_entry
+id rems_for_date
 id reverseSawtooth
 id right
 id right_icon
@@ -1013,6 +1021,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollView1
+id scroll_rems
 id search_badge
 id search_bar
 id search_button
@@ -1031,6 +1040,8 @@ id showHome
 id showTitle
 id sin
 id spacer
+id spinner_hours_repeat
+id spinner_hours_start
 id spline
 id split_action_bar
 id spread
@@ -1135,6 +1146,7 @@ layout abc_tooltip
 layout acctivity_weekschedule
 layout activity_grade
 layout activity_main
+layout activity_reminders
 layout activity_tasks
 layout custom_dialog
 layout notification_action

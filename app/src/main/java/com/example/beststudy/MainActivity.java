@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button Professor;
     private Button Grades;
     private Button Assignments;
+    private Button Reminders;
     private TextView ToBeAdded;
 
     @Override
@@ -27,12 +28,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.Professor=(Button)this.findViewById(R.id.Professor);
         this.Grades=(Button)this.findViewById(R.id.Grades);
         this.Assignments=(Button)this.findViewById(R.id.Assignments);
+        this.Reminders=(Button)this.findViewById(R.id.Reminders);
 
         //the Schedule method gonna implement to the function below
         this.Schedule.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, WeekSchedule.class);
+                startActivity(intent);
+            }
+        });
+
+        //the Schedule method gonna implement to the function below
+        this.Reminders.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CalenderReminders.class);
                 startActivity(intent);
             }
         });

@@ -35,9 +35,15 @@
             android:label="BestStudy" >
         </activity>
         <activity
+            android:name="com.example.beststudy.CalenderReminders"
+            android:label="BestStudy" >
+        </activity>
+        <activity
             android:name="com.example.beststudy.WeekSchedule"
             android:label="BestStudy" >
         </activity>
+
+        <receiver android:name="com.example.beststudy.NotificationReceiver" />
     </application>
 
 </manifest>
