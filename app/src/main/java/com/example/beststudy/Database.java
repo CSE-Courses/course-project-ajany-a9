@@ -14,7 +14,7 @@ public class Database extends SQLiteOpenHelper {
     //Columns
     private static final String NAME = "NAME";
 
-    private static final String CREATE_TABLE = "CREATE TABLE "+ DB_TABLE+" ("+ " INTEGER PRIMARY KEY AUTOINCREMENT, "+ NAME+ " TEXT"+ ")";
+    private static final String CREATE_TABLE = "CREATE TABLE "+ DB_TABLE+" ("+ " INTEGER PRIMARY KEY, "+ NAME+ " TEXT"+ ")";
 
 
     public Database(Context context){
