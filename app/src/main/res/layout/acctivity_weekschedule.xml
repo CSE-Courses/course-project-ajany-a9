@@ -74,11 +74,17 @@
             android:layout_height="40dp"
             android:background="#03A9F4">
 
+            <Button
+                android:id="@+id/removeClassButton"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="Remove Class" />
+
             <TextView
                 android:id="@+id/toOfAddClassLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="130dp"
+                android:layout_marginLeft="15dp"
                 android:text="To"
                 android:textColor="@android:color/background_dark" />
 
@@ -116,11 +122,17 @@
             android:layout_height="40dp"
             android:background="#03A9F4">
 
+            <Button
+                android:id="@+id/swapClassButton"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="Swap Class" />
+
             <TextView
                 android:id="@+id/classNameText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="                                   Class name:"
+                android:text="   Class name:"
                 android:textColor="@android:color/background_dark">
 
             </TextView>
