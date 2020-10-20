@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/etireOutsideFrame"
+        android:layout_width="407dp"
+        android:layout_height="840dp"
+        android:background="#16B53F3F"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/addClassLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#03A9F4">
+
+
+            <Button
+                android:id="@+id/addClassButton"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+
+                android:text="Add Class" />
+
+            <TextView
+                android:id="@+id/timeTestView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:textColor="@android:color/background_dark" />
+
+            <Spinner
+                android:id="@+id/spinnerFirstTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/firstTimeValue"
+                android:scrollbarSize="4dp" />
+
+            <TextView
+                android:id="@+id/colonOfAddClassLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text=":"
+                android:textColor="@android:color/background_dark" />
+
+            <Spinner
+                android:id="@+id/spinnerSecondTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/secondTimeValue" />
+
+            <Spinner
+                android:id="@+id/spinnerFirstAmOrPm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/amOrPm" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondAddClassLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#03A9F4">
+
+            <Button
+                android:id="@+id/removeClassButton"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="Remove Class" />
+
+            <TextView
+                android:id="@+id/toOfAddClassLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="To"
+                android:textColor="@android:color/background_dark" />
+
+            <Spinner
+                android:id="@+id/spinnerThirdTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/firstTimeValue" />
+
+            <TextView
+                android:id="@+id/secondColonOfAddClassLayput"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text=":"
+                android:textColor="@android:color/background_dark" />
+
+            <Spinner
+                android:id="@+id/spinnerForthTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/secondTimeValue" />
+
+            <Spinner
+                android:id="@+id/spinnerSecondAmOrPm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/amOrPm" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/classNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#03A9F4">
+
+            <Button
+                android:id="@+id/swapClassButton"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="Swap Class" />
+
+            <TextView
+                android:id="@+id/classNameText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Class name:"
+                android:textColor="@android:color/background_dark">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/classNameEText"
+                android:layout_width="128dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/weekdayLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#03A9F4">
+
+            <TextView
+                android:id="@+id/weekdayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                                   Weekday:"
+                android:textColor="@android:color/background_dark">
+
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinnerWeekday"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:entries="@array/weekday" />
+
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/weekScheduleTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="97dp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

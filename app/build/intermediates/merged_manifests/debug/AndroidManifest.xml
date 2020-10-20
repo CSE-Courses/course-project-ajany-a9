@@ -33,6 +33,24 @@
             android:name="com.example.beststudy.AssignmentScreen"
             android:label="BestStudy" >
         </activity>
+        <activity
+            android:name="com.example.beststudy.CalenderReminders"
+            android:label="BestStudy" >
+        </activity>
+        <activity
+            android:name="com.example.beststudy.WeekSchedule"
+            android:label="BestStudy" >
+        </activity>
+
+        <receiver android:name="com.example.beststudy.NotificationReceiver" />
+        <activity
+            android:name="com.example.beststudy.Courseclick"
+            android:label="BestStudy" >
+        </activity>
+        <activity
+            android:name="com.example.beststudy.Course"
+            android:label="BestStudy" >
+        </activity>
     </application>
 
 </manifest>
