@@ -9,13 +9,15 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 
 public class Database extends SQLiteOpenHelper {
-
+    //name of the current database
     private static final String DB_NAME = "Assignments.db";
+    //name of current database table
     private static final String DB_TABLE = "Assignments_Table";
 
-    //Columns
+    //Columns in the database
     private static final String NAME = "NAME";
 
+    //The structure of the database-> table -> columns
     private static final String CREATE_TABLE = "CREATE TABLE "+ DB_TABLE+" ("+ " INTEGER PRIMARY KEY, "+ NAME+ " TEXT"+ ")";
 
 
@@ -30,7 +32,9 @@ public class Database extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        //execSQL: Executes a single SQL statement in this case checks if table exists
         db.execSQL("DROP TABLE IF EXISTS "+ DB_TABLE);
+        //onCreate is called when database is created for the first time
         onCreate(db);
     }
 
