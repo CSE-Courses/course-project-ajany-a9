@@ -933,6 +933,8 @@ id dragUp
 id easeIn
 id easeInOut
 id easeOut
+id editTextCourseDay
+id editTextCourseEnd
 id editTextCourseName
 id editTextCourseTime
 id editTextProfName
@@ -971,6 +973,7 @@ id left
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id message
@@ -1012,6 +1015,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollView1
+id scrollView2
 id search_badge
 id search_bar
 id search_button

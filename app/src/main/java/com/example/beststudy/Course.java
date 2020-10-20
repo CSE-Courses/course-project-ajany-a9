@@ -48,9 +48,13 @@ public class Course extends AppCompatActivity {
     EditText courseT;
     EditText profN;
     EditText zoomL;
+    EditText endCourse;
+    EditText courseD;
     /* actual string values for tuple*/
     String courseNamestr;
     String courseTimestr;
+    String courseEnd;
+    String courseDay;
     String profNamestr;
     String zoomLinkstr;
     /*ArrayList to hold courses until we have database*/
@@ -66,6 +70,8 @@ public class Course extends AppCompatActivity {
         courseT = findViewById(R.id.editTextCourseTime);
         profN = findViewById(R.id.editTextProfName);
         zoomL = findViewById(R.id.editTextZoomLink);
+        endCourse = findViewById(R.id.editTextCourseEnd);
+        courseD = findViewById(R.id.editTextCourseDay);
 
         /*When the save button is pressed, the data is retrieved from the text fields
         new Tuple is created and save in ArrayList
@@ -79,12 +85,16 @@ public class Course extends AppCompatActivity {
                 courseTimestr = courseT.getText().toString();
                 profNamestr = profN.getText().toString();
                 zoomLinkstr = zoomL.getText().toString();
+                courseEnd = endCourse.getText().toString();
+                courseDay = courseD.getText().toString();
                 CourseSet curr = new CourseSet(courseNamestr, courseTimestr, profNamestr, zoomLinkstr);
                 AllCourse.add(curr);
                 save.putExtra("CourseName", courseNamestr);
                 save.putExtra("CourseTime", courseTimestr);
                 save.putExtra("ProfName", profNamestr);
                 save.putExtra("ZoomLink", zoomLinkstr);
+                save.putExtra("CourseDay", courseDay );
+                save.putExtra("CourseEndTime", courseEnd);
                 startActivity(save);
                 finish();
 

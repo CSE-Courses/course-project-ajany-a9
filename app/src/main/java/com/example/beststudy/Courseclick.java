@@ -32,6 +32,8 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
     String coursetime;
     String profname;
     String zoomlink;
+    String courseEndTime;
+    String courseDays;
     ListView CourseList;
     ArrayList<String> allCourse = new ArrayList<>();
     ArrayAdapter<String> adapter;
@@ -76,6 +78,8 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
         coursename = getIntent().getExtras().getString("CourseName");
         coursetime = getIntent().getExtras().getString("CourseTime");
         profname = getIntent().getExtras().getString("ProfName");
+        courseDays = getIntent().getExtras().getString("CourseDay");
+        courseEndTime = getIntent().getExtras().getString("CourseEndTime");
         zoomlink = getIntent().getExtras().getString("ZoomLink");
         int linkEnd = zoomlink.length();
         zoomHolder.setMovementMethod(LinkMovementMethod.getInstance());
@@ -91,7 +95,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
         };
         spannedZoomLink.setSpan(clickZoomLink, 0, linkEnd, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         zoomHolder.setText(spannedZoomLink);
-        String a = coursename + " " + coursetime + "\n" + profname ;
+        String a = coursename + " " + profname + "\n" + coursetime + "-" + courseEndTime + courseDays ;
         adapter.add(a);
 
     }
