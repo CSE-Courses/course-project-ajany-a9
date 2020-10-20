@@ -3,10 +3,13 @@ package com.example.beststudy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -45,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CalenderReminders.class);
                 startActivity(intent);
+
+
             }
         });
 
@@ -52,6 +57,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.Class.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
+                Intent i = new Intent (MainActivity.this, Courseclick.class);
+                startActivity(i);
 
             }
         });
@@ -60,7 +67,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.Professor.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Find The Right Professor", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ratemyprofessors.com/"));
+                startActivity(intent);
+            }
+        });
 
+        //Clicking "Grades" button opens grade calculator screen
+        this.Grades.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, GradeCalc.class);
+                startActivity(intent);
             }
         });
 
