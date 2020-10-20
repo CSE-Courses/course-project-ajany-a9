@@ -6,6 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.util.ArrayList;
+
 public class Database extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "Assignments.db";
@@ -37,6 +39,7 @@ public class Database extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValue = new ContentValues();
         contentValue.put(NAME, name);
+
 
         long result = db.insert(DB_TABLE, null, contentValue);
 

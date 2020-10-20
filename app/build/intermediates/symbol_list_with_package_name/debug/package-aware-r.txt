@@ -23,6 +23,10 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+array day
+array hour
+array minute
+array month
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -821,6 +825,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Time
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -904,11 +909,14 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
+id colonText
 id content
 id contentPanel
 id cos
 id custom
 id customPanel
+id day
+id dayTextView
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -926,6 +934,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id dueDateTextView
 id easeIn
 id easeInOut
 id easeOut
@@ -944,6 +953,7 @@ id groups
 id home
 id homeAsUp
 id honorRequest
+id hour
 id hscrll1
 id icon
 id icon_group
@@ -969,6 +979,9 @@ id listView
 id list_item
 id message
 id middle
+id minute
+id month
+id monthTextView
 id motion_base
 id multiply
 id never
