@@ -44,10 +44,6 @@
         </activity>
 
         <receiver android:name="com.example.beststudy.NotificationReceiver" />
-        <activity
-            android:name="com.example.beststudy.WeekSchedule"
-            android:label="@string/app_name" >
-        </activity>
     </application>
 
 </manifest>

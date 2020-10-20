@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/bf96d2b5a86ecd602a621e7e96856420/appcompat-1.2.0/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\DEATH DOCTOR\\.gradle\\caches\\transforms-2\\files-2.1\\b07c35e765e8193abd69cce104d7a719\\appcompat-1.2.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

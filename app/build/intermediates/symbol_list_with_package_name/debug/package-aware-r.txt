@@ -23,6 +23,10 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+array amOrPm
+array firstTimeValue
+array secondTimeValue
+array weekday
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1009,6 +1013,7 @@ id ratio
 id rectangles
 id remButton
 id reminder_entry
+id removeClassButton
 id rems_for_date
 id reverseSawtooth
 id right
@@ -1032,6 +1037,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id secondAddClassLayout
 id secondColonOfAddClassLayput
 id select_dialog_listview
 id shortcut
@@ -1040,6 +1046,13 @@ id showHome
 id showTitle
 id sin
 id spacer
+id spinnerFirstAmOrPm
+id spinnerFirstTime
+id spinnerForthTime
+id spinnerSecondAmOrPm
+id spinnerSecondTime
+id spinnerThirdTime
+id spinnerWeekday
 id spinner_hours_repeat
 id spinner_hours_start
 id spline
@@ -1059,6 +1072,7 @@ id staticPostLayout
 id stop
 id submenuarrow
 id submit_area
+id swapClassButton
 id tabMode
 id table_main
 id tag_accessibility_actions
@@ -1074,13 +1088,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id time
-id timeFifthDigitEText
-id timeFirstDigitEText
-id timeForthDigitEText
-id timeSecondDigitEText
-id timeSixthDigitEText
 id timeTestView
-id timeThirdDigitEText
 id title
 id titleDividerNoCustom
 id title_template
@@ -1097,7 +1105,6 @@ id up
 id useLogo
 id visible
 id weekScheduleTableLayout
-id weekdayEText
 id weekdayLayout
 id weekdayText
 id withText
