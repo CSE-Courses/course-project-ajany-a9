@@ -55,7 +55,9 @@ public class AssignmentScreen extends AppCompatActivity {
                 toast.setGravity(Gravity.CENTER_VERTICAL,0,0);
                 toast.show();
 
+                //removes assignment at position i from database
                 db.removeData(assignments.get(i));
+                //removes assignment from the listView
                 assignments.remove(i);
                 arrayAdapter.notifyDataSetChanged();
                 return true;
@@ -66,9 +68,13 @@ public class AssignmentScreen extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 String description = input.getText().toString();
+                //Checks if input is not an empty string
+                //db.insertData is used to store the assignment into database
                 if(!description.equals("") && db.insertData(description)){
                     Toast.makeText(AssignmentScreen.this,"Assignment Added", Toast.LENGTH_SHORT).show();
                     input.setText("");
+                    //.clear() is used to accurately update listView
+                    // without .clear() inputting 3 to a current list view of 1 2 will result in 1 2 1 2 3
                     assignments.clear();
                     viewData();
                 }else{
@@ -79,6 +85,7 @@ public class AssignmentScreen extends AppCompatActivity {
     }
 
     private void viewData(){
+        // Cursor is an instance using which you can invoke methods that execute SQLite statements, fetch data from the result sets of the queries
         Cursor cursor = db.viewData();
 
         if(cursor.getCount() == 0){
