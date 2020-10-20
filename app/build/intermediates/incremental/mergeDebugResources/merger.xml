@@ -2825,42 +2825,143 @@
             <flag name="none" value="0"/>
             <flag name="beginOnFirstDraw" value="1"/>
             />
-        </attr></declare-styleable><declare-styleable name="Variant"><attr format="dimension" name="region_widthLessThan"/><attr format="dimension" name="region_widthMoreThan"/><attr format="dimension" name="region_heightLessThan"/><attr format="dimension" name="region_heightMoreThan"/><attr name="constraints"/></declare-styleable><item name="motion_base" type="id"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res"><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\drawable\ic_baseline_access_alarm_24.xml" preprocessing="true" qualifiers=""><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xxxhdpi\ic_baseline_access_alarm_24.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-mdpi\ic_baseline_access_alarm_24.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-ldpi\ic_baseline_access_alarm_24.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xxhdpi\ic_baseline_access_alarm_24.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-hdpi\ic_baseline_access_alarm_24.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xhdpi\ic_baseline_access_alarm_24.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-anydpi-v21\ic_baseline_access_alarm_24.xml" qualifiers="anydpi-v21" type="drawable"/></file><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\drawable\ic_launcher_background.xml" preprocessing="true" qualifiers=""><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xxxhdpi\ic_launcher_background.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-mdpi\ic_launcher_background.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-ldpi\ic_launcher_background.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xxhdpi\ic_launcher_background.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-hdpi\ic_launcher_background.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xhdpi\ic_launcher_background.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-anydpi-v21\ic_launcher_background.xml" qualifiers="anydpi-v21" type="drawable"/></file></source><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\rs\debug"/><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res"><file name="ic_launcher_foreground" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="acctivity_weekschedule" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\acctivity_weekschedule.xml" qualifiers="" type="layout"/><file name="activity_grade" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\activity_grade.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_reminders" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\activity_reminders.xml" qualifiers="" type="layout"/><file name="activity_tasks" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\activity_tasks.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#6200EE</color><color name="colorPrimaryDark">#3700B3</color><color name="colorAccent">#03DAC5</color></file><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\spinnerValue.xml" qualifiers=""><string-array name="firstTimeValue">
-        <item>00</item>
-        <item>01</item>
-        <item>02</item>
-        <item>03</item>
-        <item>04</item>
-        <item>05</item>
-        <item>06</item>
-        <item>07</item>
-        <item>08</item>
-        <item>09</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-    </string-array><string-array name="secondTimeValue">
-        <item>00</item>
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>40</item>
-        <item>50</item>
-    </string-array><string-array name="amOrPm">
-        <item>am</item>
-        <item>pm</item>
-    </string-array><string-array name="weekday">
-        <item>Monday</item>
-        <item>Tuesday</item>
-        <item>Wednesday</item>
-        <item>Thursday</item>
-        <item>Friday</item>
-    </string-array></file><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BestStudy</string><string name="description">Description</string><string name="add_assignment">Add Assignment</string></file><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        </attr></declare-styleable><declare-styleable name="Variant"><attr format="dimension" name="region_widthLessThan"/><attr format="dimension" name="region_widthMoreThan"/><attr format="dimension" name="region_heightLessThan"/><attr format="dimension" name="region_heightMoreThan"/><attr name="constraints"/></declare-styleable><item name="motion_base" type="id"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res"><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\drawable\ic_launcher_background.xml" preprocessing="true" qualifiers=""><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xxxhdpi\ic_launcher_background.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-mdpi\ic_launcher_background.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-ldpi\ic_launcher_background.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xxhdpi\ic_launcher_background.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-hdpi\ic_launcher_background.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-xhdpi\ic_launcher_background.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\pngs\debug\drawable-anydpi-v21\ic_launcher_background.xml" qualifiers="anydpi-v21" type="drawable"/></file></source><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\rs\debug"/><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res"><file name="ic_launcher_foreground" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\drawable-v24\ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="activity_grade" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\activity_grade.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_tasks" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\layout\activity_tasks.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-hdpi\ic_launcher_round.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-mdpi\ic_launcher_round.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xhdpi\ic_launcher_round.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxhdpi\ic_launcher_round.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\mipmap-xxxhdpi\ic_launcher_round.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#6200EE</color><color name="colorPrimaryDark">#3700B3</color><color name="colorAccent">#03DAC5</color></file><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BestStudy</string><string name="description">Description</string><string name="add_assignment">Add Assignment</string></file><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style></file></source><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\rs\debug"/><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style></file><file path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\res\values\valuesDue.xml" qualifiers=""><string-array name="minute">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array><string-array name="day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array><string-array name="month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array><string-array name="hour">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array></file></source><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\rs\debug"/><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>
