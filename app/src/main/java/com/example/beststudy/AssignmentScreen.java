@@ -1,5 +1,6 @@
 package com.example.beststudy;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -44,6 +45,40 @@ public class AssignmentScreen extends AppCompatActivity {
         listView = findViewById(R.id.listView);
 
         viewData();
+
+        //Task# for User Story #8
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+            private Button inProgress;
+            private Button complete;
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
+                //Create dialog activity
+                Intent intent = new Intent(getApplicationContext(), AssignmentStatus.class);
+                intent.putExtra("Assignment", assignments.get(position));
+                startActivity(intent);
+
+                inProgress = findViewById(R.id.inProgressButton);
+                complete = findViewById(R.id.completeButton);
+
+                /*inProgress.setOnClickListener(new View.OnClickListener(){
+
+                    @Override
+                    public void onClick(View v) {
+
+                    }
+                });*/
+
+                /*complete.setOnClickListener(new View.OnClickListener(){
+
+                    @Override
+                    public void onClick(View v) {
+                        //
+                    }
+                });*/
+            }
+        });
 
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
 

@@ -4,14 +4,17 @@ com/example/beststudy/GradeCalc.java
  com.example.beststudy.GradeCalc$2
  com.example.beststudy.GradeCalc$3
  com.example.beststudy.Tuple
-com/example/beststudy/BuildConfig.java
- com.example.beststudy.BuildConfig
 com/example/beststudy/Database.java
  com.example.beststudy.Database
+com/example/beststudy/BuildConfig.java
+ com.example.beststudy.BuildConfig
+com/example/beststudy/AssignmentStatus.java
+ com.example.beststudy.AssignmentStatus
 com/example/beststudy/AssignmentScreen.java
  com.example.beststudy.AssignmentScreen
  com.example.beststudy.AssignmentScreen$1
  com.example.beststudy.AssignmentScreen$2
+ com.example.beststudy.AssignmentScreen$3
 com/example/beststudy/MainActivity.java
  com.example.beststudy.MainActivity
  com.example.beststudy.MainActivity$1

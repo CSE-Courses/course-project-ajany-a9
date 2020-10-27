@@ -910,6 +910,7 @@ id checked
 id chronometer
 id collapseActionView
 id colonText
+id completeButton
 id content
 id contentPanel
 id cos
@@ -961,6 +962,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id inProgressButton
 id info
 id inputAssign
 id inputGrade
@@ -1050,6 +1052,7 @@ id startHorizontal
 id startVertical
 id staticLayout
 id staticPostLayout
+id status
 id stop
 id submenuarrow
 id submit_area
@@ -1067,6 +1070,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -1125,6 +1129,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_assignment_status
 layout activity_grade
 layout activity_main
 layout activity_tasks
