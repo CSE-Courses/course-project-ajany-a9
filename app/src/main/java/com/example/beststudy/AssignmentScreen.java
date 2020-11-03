@@ -68,7 +68,7 @@ public class AssignmentScreen extends AppCompatActivity {
                     }
                 });
                 //Create button for Completed
-                Builder.setNegativeButton("Complete", new DialogInterface.OnClickListener() {
+                Builder.setNegativeButton("Completed", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         //OnClick on Completed will highlight the assignment on ListView Green
