@@ -11,7 +11,7 @@
 9-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-29:19
+11-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
 12-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -54,14 +54,6 @@
 32-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:23:13-45
 33            android:label="BestStudy" />
 33-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:24:13-38
-34        <!-- Dialog Activity for User Story 8 -->
-35        <activity
-35-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:26:9-28:76
-36            android:name="com.example.beststudy.AssignmentStatus"
-36-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:27:13-45
-37            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
-37-->C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:28:13-64
-38 -->
-39    </application>
-40
-41</manifest>
+34    </application>
+35
+36</manifest>

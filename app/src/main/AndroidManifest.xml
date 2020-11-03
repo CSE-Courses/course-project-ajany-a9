@@ -22,10 +22,6 @@
         <activity
             android:name=".AssignmentScreen"
             android:label="BestStudy"></activity>
-        <!-- Dialog Activity for User Story 8 -->
-        <activity
-            android:name=".AssignmentStatus"
-            android:theme="@style/Theme.AppCompat.Dialog.Alert"></activity>
     </application>
 
 </manifest>

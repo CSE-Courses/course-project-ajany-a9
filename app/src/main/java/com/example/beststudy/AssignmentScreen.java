@@ -1,7 +1,8 @@
 package com.example.beststudy;
 
-import android.content.Intent;
+import android.content.DialogInterface;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -16,6 +17,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Random;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AssignmentScreen extends AppCompatActivity {
@@ -46,37 +48,34 @@ public class AssignmentScreen extends AppCompatActivity {
 
         viewData();
 
-        //Task# for User Story #8
+        //User Story #8 Mark assignments as completed or in progress
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 
-            private Button inProgress;
-            private Button complete;
-
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
-                //Create dialog activity
-                Intent intent = new Intent(getApplicationContext(), AssignmentStatus.class);
-                intent.putExtra("Assignment", assignments.get(position));
-                startActivity(intent);
-
-                inProgress = findViewById(R.id.inProgressButton);
-                complete = findViewById(R.id.completeButton);
-
-                /*inProgress.setOnClickListener(new View.OnClickListener(){
-
+            public void onItemClick(AdapterView<?> parent, View view, final int position, final long id) {
+                //Create a dialog
+                AlertDialog.Builder Builder = new AlertDialog.Builder(AssignmentScreen.this);
+                //Set Title
+                Builder.setTitle("Assignment Status");
+                //Gets the description of the selected assignment
+                Builder.setMessage(assignments.get(position));
+                //Create button for In Progress
+                Builder.setPositiveButton("In Progress", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(View v) {
-
+                    public void onClick(DialogInterface dialog, int which) {
+                        //OnClick on In Progress will highlight the assignment on ListView Yellow
+                        listView.getChildAt(position).setBackgroundColor(Color.YELLOW);
                     }
-                });*/
-
-                /*complete.setOnClickListener(new View.OnClickListener(){
-
+                });
+                //Create button for Completed
+                Builder.setNegativeButton("Complete", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(View v) {
-                        //
+                    public void onClick(DialogInterface dialog, int which) {
+                        //OnClick on Completed will highlight the assignment on ListView Green
+                        listView.getChildAt(position).setBackgroundColor(Color.GREEN);
                     }
-                });*/
+                });
+                Builder.show();
             }
         });
 
@@ -190,8 +189,6 @@ public class AssignmentScreen extends AppCompatActivity {
                 int minute = Integer.valueOf(minuteS);
                 int h;
             }
-
-
 
             arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1, assignments);
             listView.setAdapter(arrayAdapter);

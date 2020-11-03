@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\b07c35e765e8193abd69cce104d7a719\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1a81e98fa865557ca2dbced7e64cc903\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -25,25 +25,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jessi\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1e2e1243dfcdc61fa4bd0b4db2584b4e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f95d32301cba80705d03c6ab35206def\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\85cfa31006e48403faf486afdca29085\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-29:19
+ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.3.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2eaed64326eb48b5bae2b5fb17ac6685\core-1.3.1\AndroidManifest.xml:24:5-89
@@ -90,12 +90,6 @@ ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\An
 		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:24:13-38
 	android:name
 		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:23:13-45
-activity#com.example.beststudy.AssignmentStatus
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:26:9-28:76
-	android:theme
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:28:13-64
-	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:27:13-45
 uses-sdk
 INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
