@@ -4,14 +4,39 @@ com/example/beststudy/GradeCalc.java
  com.example.beststudy.GradeCalc$2
  com.example.beststudy.GradeCalc$3
  com.example.beststudy.Tuple
-com/example/beststudy/BuildConfig.java
- com.example.beststudy.BuildConfig
 com/example/beststudy/Database.java
  com.example.beststudy.Database
+com/example/beststudy/WeekSchedule.java
+ com.example.beststudy.WeekSchedule
+ com.example.beststudy.WeekSchedule$1
+ com.example.beststudy.WeekSchedule$2
+ com.example.beststudy.WeekSchedule$3
+ com.example.beststudy.initialSchedule
+com/example/beststudy/Course.java
+ com.example.beststudy.Course
+ com.example.beststudy.Course$1
+ com.example.beststudy.CourseSet
+com/example/beststudy/Courseclick.java
+ com.example.beststudy.Courseclick
+ com.example.beststudy.Courseclick$1
+ com.example.beststudy.Courseclick$2
+ com.example.beststudy.Courseclick$3
+com/example/beststudy/NotificationReceiver.java
+ com.example.beststudy.NotificationReceiver
 com/example/beststudy/AssignmentScreen.java
  com.example.beststudy.AssignmentScreen
  com.example.beststudy.AssignmentScreen$1
  com.example.beststudy.AssignmentScreen$2
+com/example/beststudy/ProfessorActivity.java
+ com.example.beststudy.ProfessorActivity
+com/example/beststudy/BuildConfig.java
+ com.example.beststudy.BuildConfig
+com/example/beststudy/CalenderReminders.java
+ com.example.beststudy.CalenderReminders
+ com.example.beststudy.CalenderReminders$1
+ com.example.beststudy.CalenderReminders$2
+ com.example.beststudy.CalenderReminders$3
+ com.example.beststudy.dateTuple
 com/example/beststudy/MainActivity.java
  com.example.beststudy.MainActivity
  com.example.beststudy.MainActivity$1
@@ -19,3 +44,5 @@ com/example/beststudy/MainActivity.java
  com.example.beststudy.MainActivity$3
  com.example.beststudy.MainActivity$4
  com.example.beststudy.MainActivity$5
+ com.example.beststudy.MainActivity$6
+ com.example.beststudy.MainActivity$7

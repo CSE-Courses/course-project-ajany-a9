@@ -279,14 +279,19 @@ public class CalenderReminders extends AppCompatActivity {
     private void initDropdownBars(){
         Spinner startDropdown = findViewById(R.id.spinner_hours_start);
         Spinner repeatDropdown = findViewById(R.id.spinner_hours_repeat);
+        Spinner priorityDropdown = findViewById(R.id.spinner_priorities);
         String[] startHours = new String[]{"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","36","48","72","96"};
         String [] repeatHours = new String[]{"TEST(1min)","0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","36","48","72","96"};
+        String[] reminderPriorities = new String[]{"0","1","2","3","4","5","6","7","8","9","10"};
         ArrayAdapter<String> startAdapter =
                 new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,startHours);
         ArrayAdapter<String> repeatAdapter =
                 new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,repeatHours);
+        ArrayAdapter<String> priorityAdapter =
+                new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,reminderPriorities);
         startDropdown.setAdapter(startAdapter);
         repeatDropdown.setAdapter(repeatAdapter);
+        priorityDropdown.setAdapter(priorityAdapter);
     }
 
 }//end of class CalenderReminders
