@@ -1,6 +1,7 @@
 package com.example.beststudy;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -60,6 +61,8 @@ class initialSchedule{
 
 //implement the data from initialSchedule to the table in app schedule//
 public class WeekSchedule extends AppCompatActivity implements View.OnClickListener {
+
+    private scheduleDatabase scheduleDatabase;
     private ArrayList<TableRow> rowList = new ArrayList<TableRow>();
     private TableLayout weekScheduleTableLayout;
     private Spinner spinnerFirstTime;
@@ -75,6 +78,7 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.acctivity_weekschedule);
         initialWeekScheduleTable();
+        rememberData();
 
         final Button addClassButton = findViewById(R.id.addClassButton);
         addClassButton.setOnClickListener(new View.OnClickListener() {
@@ -214,10 +218,14 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
 
         }
 
+        String classInfo = className+"  "+firstTime+":"+secondTime+" "
+                +firstAmOrPm+"  to  "+ thirdTime+":"+fourthTime+" "+secondAmOrPm;
         TextView dataCell = new TextView(this);
-        dataCell.setText(className+"  "+firstTime+":"+secondTime+" "
-                +firstAmOrPm+"  to  "+ thirdTime+":"+fourthTime+" "+secondAmOrPm);
+        dataCell.setText(classInfo);
         dataCell.setWidth(10);
+
+        scheduleDatabase= new scheduleDatabase(this);
+        scheduleDatabase.insertClass(i,j,classInfo);
 
         this.rowList.get(j).addView(dataCell,i);
 
@@ -307,6 +315,26 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    public void rememberData(){
+        scheduleDatabase= new scheduleDatabase(this);
+        Cursor cursor = scheduleDatabase.scheduleDataCursor();
+
+        if(cursor.getCount() == 0){
+            Toast.makeText(this, "No class to show", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            while(cursor.moveToNext()){
+                String classInfo = cursor.getString(1);
+                int j = Integer.valueOf(cursor.getString(2));
+                int i = Integer.valueOf(cursor.getString(3));
+                TextView dataCell = new TextView(this);
+                dataCell.setText(classInfo);
+                dataCell.setWidth(10);
+                this.rowList.get(j).addView(dataCell,i);
+            }
+
+        }
+    }
     public void swapClassButton(){ //method for swapping class with another class
         removeClassButton();
         addClassButton();
