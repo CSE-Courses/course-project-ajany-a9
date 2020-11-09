@@ -219,9 +219,12 @@ public class CalenderReminders extends AppCompatActivity {
      * to a date and whether/how often the alert should be repeated.
      */
     public void addReminder(){
+        Spinner prioritySpinner = (Spinner) findViewById(R.id.spinner_priorities);
+        String priorityValue = prioritySpinner.getSelectedItem().toString();
+
         String date = dateView.getText().toString();
         EditText inputRem = findViewById(R.id.reminder_entry);
-        String newReminder = inputRem.getText().toString();
+        String newReminder = "(" + priorityValue + ") " + inputRem.getText().toString();
         String oldReminders = remDataMap.get(date);
         if(oldReminders == null || oldReminders == ""){
             oldReminders = " \n ";
@@ -295,3 +298,4 @@ public class CalenderReminders extends AppCompatActivity {
     }
 
 }//end of class CalenderReminders
+
