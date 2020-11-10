@@ -14,6 +14,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 
+import android.text.Html;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -215,6 +216,64 @@ public class CalenderReminders extends AppCompatActivity {
         }
     }
 
+    /**Given a 1 char string 'priorityValue', returns an html string
+     * representing 'input' with a color ranging from blue to red
+     */
+    public String getPriorityColor(String priorityValue, String input){
+        String output;
+        switch(priorityValue)
+        {
+            case "0"://black
+                output = "<font color=#000000>" + input + "</font>";
+                break;
+
+            case "1"://blue
+                output = "<font color=#0000ff>" + input + "</font>";
+                break;
+
+            case "2":
+                output = "<font color=#0fa7ff>" + input + "</font>";
+                break;
+
+            case "3":
+                output = "<font color=#00ffff>" + input + "</font>";
+                break;
+
+            case "4":
+                output = "<font color=#02ff7c>" + input + "</font>";
+                break;
+
+            case "5":
+                output = "<font color=#00ff00>" + input + "</font>";
+                break;
+
+            case "6":
+                output = "<font color=#caff1c>" + input + "</font>";
+                break;
+
+            case "7":
+                output = "<font color=#ffdd00>" + input + "</font>";
+                break;
+
+            case "8":
+                output = "<font color=#ffe414>" + input + "</font>";
+                break;
+
+            case "9":
+                output = "<font color=#ff6f00>" + input + "</font>";
+                break;
+
+            case "10"://red
+                output = "<font color=#ff0000>" + input + "</font>";
+                break;
+
+            default:
+                output = "<font color=#000000>" + input + "</font>";
+                break;
+        }
+        return output;
+    }
+
     /** Add a reminder to a date, also gets values for when to start sending alerts relartive
      * to a date and whether/how often the alert should be repeated.
      */
@@ -229,8 +288,10 @@ public class CalenderReminders extends AppCompatActivity {
         if(oldReminders == null || oldReminders == ""){
             oldReminders = " \n ";
         }
-        String updatedRems = newReminder + "\n" + oldReminders;
-        currDateRems.setText(updatedRems);
+        String updatedRems = getPriorityColor(priorityValue, newReminder) + "<br>" + oldReminders;
+        //currDateRems.setText(updatedRems);
+        currDateRems.setText(Html.fromHtml(updatedRems));
+        Html.escapeHtml(updatedRems);
         remDataMap.put(date,updatedRems);
         inputRem.getText().clear();
 
@@ -257,7 +318,8 @@ public class CalenderReminders extends AppCompatActivity {
         if(rems == null || rems == ""){
             rems = "No reminders for this date";
         }
-        currDateRems.setText(rems);
+        //currDateRems.setText(rems);
+        currDateRems.setText(Html.fromHtml(rems));
         ScrollView sv = findViewById(R.id.scroll_rems);
         sv.scrollTo(0,0);
     }
@@ -298,4 +360,3 @@ public class CalenderReminders extends AppCompatActivity {
     }
 
 }//end of class CalenderReminders
-

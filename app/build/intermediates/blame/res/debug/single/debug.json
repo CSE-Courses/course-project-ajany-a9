@@ -8,12 +8,12 @@
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_access_alarm_24.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_access_alarm_24.png.flat",
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_access_alarm_24.png"
+    },
+    {
+        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_baseline_access_alarm_24.png.flat",
