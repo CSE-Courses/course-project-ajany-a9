@@ -59,11 +59,14 @@ public class Course extends AppCompatActivity {
     String zoomLinkstr;
     /*ArrayList to hold courses until we have database*/
     ArrayList<CourseSet> AllCourse = new ArrayList<>();
+   CoursesDataBase data;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_courses);
+        data = new CoursesDataBase(this);
 
         saved = findViewById(R.id.Savebutton);
         courseN = findViewById(R.id.editTextCourseName);
@@ -72,6 +75,7 @@ public class Course extends AppCompatActivity {
         zoomL = findViewById(R.id.editTextZoomLink);
         endCourse = findViewById(R.id.editTextCourseEnd);
         courseD = findViewById(R.id.editTextCourseDay);
+        data.viewData();
 
         /*When the save button is pressed, the data is retrieved from the text fields
         new Tuple is created and save in ArrayList
@@ -88,6 +92,7 @@ public class Course extends AppCompatActivity {
                 courseEnd = endCourse.getText().toString();
                 courseDay = courseD.getText().toString();
                 CourseSet curr = new CourseSet(courseNamestr, courseTimestr, profNamestr, zoomLinkstr);
+                data.insertCourse(courseNamestr,courseTimestr, courseEnd, profNamestr, courseDay, zoomLinkstr);
                 AllCourse.add(curr);
                 save.putExtra("CourseName", courseNamestr);
                 save.putExtra("CourseTime", courseTimestr);

@@ -1,6 +1,8 @@
 package com.example.beststudy;
 
+import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -33,5 +35,31 @@ public class CoursesDataBase extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS "+ currentTable);
         onCreate(db);
+    }
+
+    public boolean insertCourse (String name, String start, String end, String instructor, String day, String links){
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues cV = new ContentValues();
+        cV.put(CName, name);
+        cV.put(StartTime, start);
+        cV.put(EndTime, end);
+        cV.put(Professor, instructor);
+        cV.put(CourseDay, day);
+        cV.put(Zoom, links);
+        db.insert(currentTable, null, cV);
+        return true;
+    }
+
+    public boolean removeCourse (String name){
+        SQLiteDatabase db = this.getWritableDatabase();
+        long removed = db.delete(currentTable, "CName=?", new String[]{name});
+        return true;
+    }
+
+    public Cursor viewData(){
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "Select * from " + currentTable;
+        Cursor cursor = db.rawQuery(query, null);
+        return cursor;
     }
 }
