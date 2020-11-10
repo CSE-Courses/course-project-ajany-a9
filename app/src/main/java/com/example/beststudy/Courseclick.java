@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -22,6 +23,8 @@ import android.widget.ListView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,6 +41,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
     ArrayList<String> allCourse = new ArrayList<>();
     ArrayAdapter<String> adapter;
     TextView zoomHolder;
+    CoursesDataBase alldata;
 
 
 
@@ -51,7 +55,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
         this.zoomHolder = (TextView)this.findViewById(R.id.zoomPart);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, allCourse);
         CourseList.setAdapter(adapter);
-
+        alldata = new CoursesDataBase(this);
 
         /*Button to add new course, takes to new course creation screen*/
         this.NewClass.setOnClickListener(new View.OnClickListener(){
@@ -75,7 +79,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     public void addCourse(View view){
-        coursename = getIntent().getExtras().getString("CourseName");
+       coursename = getIntent().getExtras().getString("CourseName");
         coursetime = getIntent().getExtras().getString("CourseTime");
         profname = getIntent().getExtras().getString("ProfName");
         courseDays = getIntent().getExtras().getString("CourseDay");
@@ -104,5 +108,5 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
     public void onClick(View x){
 
     }
+    }
 
-}
