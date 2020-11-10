@@ -1,6 +1,7 @@
 package com.example.beststudy;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -60,6 +61,8 @@ class initialSchedule{
 
 //implement the data from initialSchedule to the table in app schedule//
 public class WeekSchedule extends AppCompatActivity implements View.OnClickListener {
+
+    private scheduleDatabase scheduleDatabase;
     private ArrayList<TableRow> rowList = new ArrayList<TableRow>();
     private TableLayout weekScheduleTableLayout;
     private Spinner spinnerFirstTime;
@@ -75,6 +78,7 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.acctivity_weekschedule);
         initialWeekScheduleTable();
+        rememberData();
 
         final Button addClassButton = findViewById(R.id.addClassButton);
         addClassButton.setOnClickListener(new View.OnClickListener() {
@@ -137,8 +141,11 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
         }
         return this.rowList;
     }
+
+
+
     //addClassButtonSetting
-    public void addClassButton(){
+    public boolean addClassButton(){
         spinnerFirstTime=(Spinner) findViewById(R.id.spinnerFirstTime);
         String firstTime = spinnerFirstTime.getSelectedItem().toString();
 
@@ -173,6 +180,28 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
         int j=0;
         int firstTimeNumber= Integer.valueOf(firstTime);
         int secondTimeNumber= Integer.valueOf(secondTime);
+        int thirdTimeNumber = Integer.valueOf(thirdTime);
+        int forthTimeNumber = Integer.valueOf(fourthTime);
+
+        if ((firstAmOrPm.equals("am") && secondAmOrPm.equals("am")) ||
+                (firstAmOrPm.equals("pm") && secondAmOrPm.equals("pm"))) {
+            if (thirdTimeNumber < firstTimeNumber) {
+                Toast.makeText(this, "The end time should be greater than start time",
+                        Toast.LENGTH_SHORT).show();
+                return false;
+            }
+            if ((thirdTimeNumber == firstTimeNumber) && (forthTimeNumber <= secondTimeNumber)) {
+                Toast.makeText(this, "The end time should be greater than start time",
+                        Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        }
+        if ((firstAmOrPm.equals("pm") && secondAmOrPm.equals("am"))) {
+            Toast.makeText(this, "The end time should be greater than start time",
+                    Toast.LENGTH_SHORT).show();
+            return false;
+        }
+
         if(firstTimeNumber>=7&&firstTimeNumber<=12){
             if(firstAmOrPm.equals("am")) {
                 if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
@@ -213,100 +242,83 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
             }
 
         }
+        scheduleDatabase= new scheduleDatabase(this);
+        Cursor cursor = scheduleDatabase.scheduleDataCursor();
 
+        if(cursor.getCount() != 0){
+
+            while(cursor.moveToNext()){
+
+                int s = Integer.valueOf(cursor.getString(2));
+                int k = Integer.valueOf(cursor.getString(3));
+                if(s==j&&k==i){
+                    Toast.makeText(this, "The time you selected already have class",
+                            Toast.LENGTH_SHORT).show();
+                    return false;
+                }
+            }
+        }
+        String classInfo = className+"  "+firstTime+":"+secondTime+" "
+                +firstAmOrPm+"  to  "+ thirdTime+":"+fourthTime+" "+secondAmOrPm;
         TextView dataCell = new TextView(this);
-        dataCell.setText(className+"  "+firstTime+":"+secondTime+" "
-                +firstAmOrPm+"  to  "+ thirdTime+":"+fourthTime+" "+secondAmOrPm);
+        dataCell.setText(classInfo);
         dataCell.setWidth(10);
+
+        scheduleDatabase= new scheduleDatabase(this);
+        scheduleDatabase.insertClass(i,j,classInfo);
 
         this.rowList.get(j).addView(dataCell,i);
-
+        return true;
     }
 
-    public void removeClassButton(){ //method for removing class from schedule
-        spinnerFirstTime=(Spinner) findViewById(R.id.spinnerFirstTime);
-        String firstTime = spinnerFirstTime.getSelectedItem().toString();
+    public boolean removeClassButton() { //method for removing class from schedule
 
-        spinnerSecondTime=(Spinner) findViewById(R.id.spinnerSecondTime);
-        String secondTime = spinnerSecondTime.getSelectedItem().toString();
+        ArrayList<Integer>s = new ArrayList<Integer>();
+        s=getColonAndRow();
+        int i =s.get(0);
+        int j =s.get(1);
+        scheduleDatabase= new scheduleDatabase(this);
+        Cursor cursor = scheduleDatabase.scheduleDataCursor();
 
-        spinnerFirstAmOrPm=(Spinner) findViewById(R.id.spinnerFirstAmOrPm);
-        String firstAmOrPm = spinnerFirstAmOrPm.getSelectedItem().toString();
+            while(cursor.moveToNext()){
+                String id = cursor.getString(0);
+                String Firstj = cursor.getString(2);
+                String Secondi = cursor.getString(3);
 
-        spinnerThirdTime=(Spinner) findViewById(R.id.spinnerThirdTime);
-        String thirdTime = spinnerThirdTime.getSelectedItem().toString();
+                if(Integer.toString(j).equals(Firstj)&&Integer.toString(i).equals(Secondi)){
+                    scheduleDatabase.removeData(id);
+                    this.rowList.get(j).removeViewAt(i);
 
-        spinnerFourthTime=(Spinner) findViewById(R.id.spinnerForthTime);
-        String fourthTime = spinnerFourthTime.getSelectedItem().toString();
-
-        spinnerSecondAmOrPm=(Spinner) findViewById(R.id.spinnerSecondAmOrPm);
-        String secondAmOrPm = spinnerSecondAmOrPm.getSelectedItem().toString();
-
-        spinnerWeekday=(Spinner)findViewById(R.id.spinnerWeekday);
-        String weekday= spinnerWeekday.getSelectedItem().toString();
-
-        editTextClassName=(EditText)findViewById(R.id.classNameEText);
-        String className= editTextClassName.getText().toString();
-
-        int i=0;
-        if(weekday.equals("Monday")){i=1;}
-        if(weekday.equals("Tuesday")){i=2;}
-        if(weekday.equals("Wednesday")){i=3;}
-        if(weekday.equals("Thursday")){i=4;}
-        if(weekday.equals("Friday")){i=5;}
-
-        int j=0;
-        int firstTimeNumber= Integer.valueOf(firstTime);
-        int secondTimeNumber= Integer.valueOf(secondTime);
-        if(firstTimeNumber>=7&&firstTimeNumber<=12){
-            if(firstAmOrPm.equals("am")) {
-                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
-                    j = firstTimeNumber * 2 - 13;
                 }
-                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
-                    j = firstTimeNumber * 2 - 13 + 1;
-                }
-            }
-            if(firstAmOrPm.equals("pm")&&firstTimeNumber==12) {
-                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
-                    j = firstTimeNumber * 2 - 13;
-                }
-                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
-                    j = firstTimeNumber * 2 - 13 + 1;
-                }
-            }
-        }
-        if(firstTimeNumber>1&&firstTimeNumber<=11){
-            if(firstAmOrPm.equals("pm")) {
-                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
-                    j = firstTimeNumber * 2 + 11;
-                }
-                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
-                    j = firstTimeNumber * 2 +12 ;
-                }
-            }
-        }
-
-        if(firstTimeNumber>=0&&firstTimeNumber<=6) {
-            if (firstAmOrPm.equals("am")) {
-                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
-                    j = firstTimeNumber * 2 + 35;
-                }
-                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
-                    j = firstTimeNumber * 2 + 36;
-                }
+                return true;
             }
 
-        }
 
-        TextView dataCell = new TextView(this);
-        dataCell.setText("");
-        dataCell.setWidth(10);
-
-        this.rowList.get(j).removeViewAt(i);
-
+        return true;
     }
 
+    public void rememberData(){
+
+
+        scheduleDatabase= new scheduleDatabase(this);
+        Cursor cursor = scheduleDatabase.scheduleDataCursor();
+
+        if(cursor.getCount() == 0){
+            Toast.makeText(this, "No class to show", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            while(cursor.moveToNext()){
+                String classInfo = cursor.getString(1);
+                int j = Integer.valueOf(cursor.getString(2));
+                int i = Integer.valueOf(cursor.getString(3));
+                TextView dataCell = new TextView(this);
+                dataCell.setText(classInfo);
+                dataCell.setWidth(10);
+                this.rowList.get(j).addView(dataCell,i);
+            }
+
+        }
+    }
     public void swapClassButton(){ //method for swapping class with another class
         removeClassButton();
         addClassButton();
@@ -323,6 +335,76 @@ public class WeekSchedule extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    public ArrayList<Integer> getColonAndRow(){
+        spinnerFirstTime=(Spinner) findViewById(R.id.spinnerFirstTime);
+        String firstTime = spinnerFirstTime.getSelectedItem().toString();
+
+        spinnerSecondTime=(Spinner) findViewById(R.id.spinnerSecondTime);
+        String secondTime = spinnerSecondTime.getSelectedItem().toString();
+
+        spinnerFirstAmOrPm=(Spinner) findViewById(R.id.spinnerFirstAmOrPm);
+        String firstAmOrPm = spinnerFirstAmOrPm.getSelectedItem().toString();
+
+        spinnerWeekday=(Spinner)findViewById(R.id.spinnerWeekday);
+        String weekday= spinnerWeekday.getSelectedItem().toString();
+
+        ArrayList<Integer> cr= new ArrayList<Integer>();
+
+        int i=0;
+        if(weekday.equals("Monday")){i=1;}
+        if(weekday.equals("Tuesday")){i=2;}
+        if(weekday.equals("Wednesday")){i=3;}
+        if(weekday.equals("Thursday")){i=4;}
+        if(weekday.equals("Friday")){i=5;}
+
+        int j=0;
+        int firstTimeNumber= Integer.valueOf(firstTime);
+        int secondTimeNumber= Integer.valueOf(secondTime);
+
+        if(firstTimeNumber>=7&&firstTimeNumber<=12){
+            if(firstAmOrPm.equals("am")) {
+                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
+                    j = firstTimeNumber * 2 - 13;
+                }
+                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
+                    j = firstTimeNumber * 2 - 13 + 1;
+                }
+            }
+            if(firstAmOrPm.equals("pm")&&firstTimeNumber==12) {
+                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
+                    j = firstTimeNumber * 2 - 13;
+                }
+                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
+                    j = firstTimeNumber * 2 - 13 + 1;
+                }
+            }
+        }
+        if(firstTimeNumber>1&&firstTimeNumber<=11){
+            if(firstAmOrPm.equals("pm")) {
+                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
+                    j = firstTimeNumber * 2 + 11;
+                }
+                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
+                    j = firstTimeNumber * 2 +12 ;
+                }
+            }
+        }
+
+        if(firstTimeNumber>=0&&firstTimeNumber<=6) {
+            if (firstAmOrPm.equals("am")) {
+                if (secondTimeNumber < 30 && secondTimeNumber >= 0) {
+                    j = firstTimeNumber * 2 + 35;
+                }
+                if (secondTimeNumber >= 30 && secondTimeNumber <= 50) {
+                    j = firstTimeNumber * 2 + 36;
+                }
+            }
+
+        }
+        cr.add(i);
+        cr.add(j);
+        return cr;
+    }
     @Override
     public void onClick(View v) {
 
