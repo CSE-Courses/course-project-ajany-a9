@@ -26,6 +26,7 @@ public class AssignmentDatabase extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        onUpgrade(db,1,1);
         db.execSQL(CREATE_TABLE);
     }
 
