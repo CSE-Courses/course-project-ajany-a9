@@ -19,6 +19,7 @@ public class AssignmentDatabase extends SQLiteOpenHelper {
 
     private static final String CREATE_TABLE = "CREATE TABLE "+ DB_TABLE+" (id "+ " INTEGER PRIMARY KEY, "+ DESCRIPTION + " TEXT, " + STATUS + " TEXT" + ")";
 
+    private static boolean firstRun = true;
 
     public AssignmentDatabase(Context context){
         super(context, DB_NAME, null, 1);
@@ -26,7 +27,6 @@ public class AssignmentDatabase extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        onUpgrade(db,1,1);
         db.execSQL(CREATE_TABLE);
     }
 
@@ -59,7 +59,6 @@ public class AssignmentDatabase extends SQLiteOpenHelper {
         return result > 0;
     }
 
-    //create method to update data
     public boolean updateData(String name, String status){
         ContentValues contentValue = new ContentValues();
         contentValue.put(STATUS, status);
@@ -73,6 +72,10 @@ public class AssignmentDatabase extends SQLiteOpenHelper {
     //create method to view data
     public Cursor viewData(){
         SQLiteDatabase db = this.getReadableDatabase();
+        if (firstRun) {
+            firstRun = false;
+            onUpgrade(db, 1, 1);
+        }
         String query = "Select * from "+DB_TABLE;
         Cursor cursor = db.rawQuery(query, null);
 
