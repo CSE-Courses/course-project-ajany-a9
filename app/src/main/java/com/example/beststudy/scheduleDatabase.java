@@ -50,7 +50,12 @@ public class scheduleDatabase extends SQLiteOpenHelper {
 
         return cursor;
     }
+    public boolean removeData(String id){
+        SQLiteDatabase db = this.getWritableDatabase();
+        long result = db.delete(SCHEDULE_TABLE, id, null);
 
+        return result > 0;
+    }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
