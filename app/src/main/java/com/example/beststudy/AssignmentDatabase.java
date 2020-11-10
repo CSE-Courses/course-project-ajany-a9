@@ -6,22 +6,22 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import java.util.ArrayList;
 
-public class Database extends SQLiteOpenHelper {
-    //name of the current database
+public class AssignmentDatabase extends SQLiteOpenHelper {
+    //name of the database
     private static final String DB_NAME = "Assignments.db";
-    //name of current database table
+    //name of database table
     private static final String DB_TABLE = "Assignments_Table";
 
     //Columns in the database
-    private static final String NAME = "NAME";
+    private static final String DESCRIPTION = "DESCRIPTION";
+    private static final String STATUS = "STATUS";
 
-    //The structure of the database-> table -> columns
-    private static final String CREATE_TABLE = "CREATE TABLE "+ DB_TABLE+" ("+ " INTEGER PRIMARY KEY, "+ NAME+ " TEXT"+ ")";
+    private static final String CREATE_TABLE = "CREATE TABLE "+ DB_TABLE+" (id "+ " INTEGER PRIMARY KEY, "+ DESCRIPTION + " TEXT, " + STATUS + " TEXT" + ")";
 
+    private static boolean firstRun = true;
 
-    public Database(Context context){
+    public AssignmentDatabase(Context context){
         super(context, DB_NAME, null, 1);
     }
 
@@ -39,10 +39,11 @@ public class Database extends SQLiteOpenHelper {
     }
 
     //create method to insert data
-    public boolean insertData(String name){
+    public boolean insertData(String assignment, String status){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValue = new ContentValues();
-        contentValue.put(NAME, name);
+        contentValue.put(DESCRIPTION, assignment);
+        contentValue.put(STATUS, status);
 
 
         long result = db.insert(DB_TABLE, null, contentValue);
@@ -53,7 +54,17 @@ public class Database extends SQLiteOpenHelper {
     //create method to remove data
     public boolean removeData(String name){
         SQLiteDatabase db = this.getWritableDatabase();
-        long result = db.delete(DB_TABLE, "NAME=?", new String[]{name});
+        long result = db.delete(DB_TABLE, "DESCRIPTION=?", new String[]{name});
+
+        return result > 0;
+    }
+
+    public boolean updateData(String name, String status){
+        ContentValues contentValue = new ContentValues();
+        contentValue.put(STATUS, status);
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        long result = db.update(DB_TABLE, contentValue, "DESCRIPTION=?", new String[]{name});
 
         return result > 0;
     }
@@ -61,6 +72,10 @@ public class Database extends SQLiteOpenHelper {
     //create method to view data
     public Cursor viewData(){
         SQLiteDatabase db = this.getReadableDatabase();
+        if (firstRun) {
+            firstRun = false;
+            onUpgrade(db, 1, 1);
+        }
         String query = "Select * from "+DB_TABLE;
         Cursor cursor = db.rawQuery(query, null);
 

@@ -1,6 +1,8 @@
 package com.example.beststudy;
 
+import android.content.DialogInterface;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -15,28 +17,30 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Random;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AssignmentScreen extends AppCompatActivity {
 
-    Database db;
+    AssignmentDatabase db;
 
     private Button button;
     private EditText input;
-    private ArrayList<String> assignments;
-    private ArrayAdapter<String> arrayAdapter;
+    private ArrayList<AssignmentItem> assignments;
+    private ArrayAdapter<AssignmentItem> arrayAdapter;
     private ListView listView;
     private Spinner monthSpinner;
     private Spinner daySpinner;
     private Spinner hourSpinner;
     private Spinner minuteSpinner;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tasks);
 
-        db = new Database(this);
+        db = new AssignmentDatabase(this);
 
         assignments = new ArrayList<>();
         button = findViewById(R.id.button);
@@ -44,6 +48,41 @@ public class AssignmentScreen extends AppCompatActivity {
         listView = findViewById(R.id.listView);
 
         viewData();
+
+        //User Story #8 Mark assignments as completed or in progress
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, final int position, final long id) {
+                //Create a dialog
+                AlertDialog.Builder Builder = new AlertDialog.Builder(AssignmentScreen.this);
+                //Set Title
+                Builder.setTitle("Assignment Status");
+                //Gets the description of the selected assignment
+                Builder.setMessage(assignments.get(position).mDescription);
+                //Create button for In Progress
+                Builder.setPositiveButton("In Progress", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //OnClick on In Progress will highlight the assignment on ListView Yellow
+                        listView.getChildAt(position).setBackgroundColor(Color.YELLOW);
+                        assignments.get(position).mStatus = "inProgress";
+                        db.updateData(assignments.get(position).mDescription, "inProgress");
+                    }
+                });
+                //Create button for Completed
+                Builder.setNegativeButton("Completed", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //OnClick on Completed will highlight the assignment on ListView Green
+                        listView.getChildAt(position).setBackgroundColor(Color.GREEN);
+                        assignments.get(position).mStatus = "completed";
+                        db.updateData(assignments.get(position).mDescription, "completed");
+                    }
+                });
+                Builder.show();
+            }
+        });
 
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
 
@@ -59,7 +98,7 @@ public class AssignmentScreen extends AppCompatActivity {
                 toast.setGravity(Gravity.CENTER_VERTICAL,0,0);
                 toast.show();
 
-                db.removeData(assignments.get(i));
+                db.removeData(assignments.get(i).mDescription);
                 assignments.remove(i);
                 arrayAdapter.notifyDataSetChanged();
                 return true;
@@ -83,9 +122,10 @@ public class AssignmentScreen extends AppCompatActivity {
                 String minute = minuteSpinner.getSelectedItem().toString();
 
                 String description = monthS+"/"+dayS+" "+hourS+":"+minute+"   "+input.getText().toString();
+                String status = "UNSTARTED";
 
-
-                if(!description.equals("") && db.insertData(description)){
+                //Description and status of assignment is added in db
+                if(!description.equals("") && db.insertData(description, status)){
                     Toast.makeText(AssignmentScreen.this,"Assignment Added", Toast.LENGTH_SHORT).show();
                     input.setText("");
                     assignments.clear();
@@ -105,9 +145,11 @@ public class AssignmentScreen extends AppCompatActivity {
         }
         else{
             while(cursor.moveToNext()){
-                assignments.add(cursor.getString(1));
+                AssignmentItem item = new AssignmentItem("","");
+                item.mDescription = cursor.getString(1);
+                item.mStatus = cursor.getString(2);
+                assignments.add(item);
             }
-
 
             int j =0;
 
@@ -118,7 +160,7 @@ public class AssignmentScreen extends AppCompatActivity {
                 String hourS = "";
                 String minuteS = "";
                 int cursor1 = 0;
-                String name = assignments.get(i);
+                String name = assignments.get(i).mDescription;
                 for (i = 0; i < name.length(); i = i + 1) {
                     cursor1++;
                     if (name.charAt(i) == '/') {
@@ -156,11 +198,8 @@ public class AssignmentScreen extends AppCompatActivity {
                 int h;
             }
 
-
-
-            arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1, assignments);
+            arrayAdapter = new AssignmentAdapter(this, assignments);
             listView.setAdapter(arrayAdapter);
         }
     }
-
 }

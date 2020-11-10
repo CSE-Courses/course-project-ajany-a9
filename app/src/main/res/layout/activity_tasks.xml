@@ -11,26 +11,21 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true" />
 
-
-
     <TextView
         android:id="@+id/dueDateTextView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_above="@id/editText2"
         android:layout_below="@id/listView"
-        android:text="Due Date:  ">
+        android:text="Due Date:  " />
 
-    </TextView>
     <TextView
         android:id="@+id/monthTextView"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:text="Month:"
         android:layout_toRightOf="@id/dueDateTextView"
-        android:layout_below="@id/listView">
-    </TextView>
-
+        android:layout_below="@id/listView" />
 
     <Spinner
         android:id="@+id/month"
@@ -40,7 +35,7 @@
         android:layout_marginLeft="-43dp"
         android:layout_marginTop="34dp"
         android:layout_toRightOf="@id/monthTextView"
-        android:entries="@array/month"></Spinner>
+        android:entries="@array/month" />
 
     <TextView
         android:id="@+id/dayTextView"
@@ -51,9 +46,7 @@
         android:layout_marginTop="0dp"
         android:layout_toRightOf="@id/month"
         android:entries="@id/month"
-        android:text="Day:">
-
-    </TextView>
+        android:text="Day:" />
 
     <Spinner
         android:id="@+id/day"
@@ -63,7 +56,7 @@
         android:layout_marginLeft="-31dp"
         android:layout_marginTop="35dp"
         android:layout_toRightOf="@id/dayTextView"
-        android:entries="@array/day"></Spinner>
+        android:entries="@array/day" />
 
     <TextView
         android:id="@+id/Time"
@@ -73,10 +66,7 @@
         android:layout_marginLeft="7dp"
         android:layout_marginTop="1dp"
         android:layout_toRightOf="@id/day"
-        android:text="Time:">
-
-    </TextView>
-
+        android:text="Time:" />
 
     <Spinner
         android:id="@+id/hour"
@@ -86,7 +76,7 @@
         android:layout_marginLeft="-41dp"
         android:layout_marginTop="34dp"
         android:layout_toRightOf="@id/Time"
-        android:entries="@array/hour"></Spinner>
+        android:entries="@array/hour" />
 
     <TextView
         android:id="@+id/colonText"
@@ -96,9 +86,7 @@
         android:layout_marginLeft="2dp"
         android:layout_marginTop="41dp"
         android:layout_toRightOf="@id/hour"
-        android:text=":">
-
-    </TextView>
+        android:text=":" />
 
     <Spinner
         android:id="@+id/minute"
@@ -108,7 +96,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginTop="35dp"
         android:layout_toRightOf="@id/colonText"
-        android:entries="@array/minute"></Spinner>
+        android:entries="@array/minute" />
 
     <EditText
         android:layout_width="wrap_content"
