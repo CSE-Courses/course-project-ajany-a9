@@ -43,6 +43,7 @@
         </activity>
 
         <receiver android:name="com.example.beststudy.NotificationReceiver" />
+
         <activity
             android:name="com.example.beststudy.Courseclick"
             android:label="BestStudy" >
