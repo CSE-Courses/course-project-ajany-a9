@@ -823,6 +823,7 @@ id CTRL
 id Class
 id CourseList
 id FUNCTION
+id GPA
 id Grades
 id META
 id NO_DEBUG
@@ -890,11 +891,13 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id activityDescription
 id activity_chooser_view_content
 id add
 id addButton
 id addClassButton
 id addClassLayout
+id addInfo
 id add_rem_button
 id alertTitle
 id aligned
@@ -934,6 +937,8 @@ id colonText
 id content
 id contentPanel
 id cos
+id courseName
+id credits
 id custom
 id customPanel
 id date_view
@@ -1076,6 +1081,7 @@ id spacer
 id spinnerFirstAmOrPm
 id spinnerFirstTime
 id spinnerForthTime
+id spinnerGrade
 id spinnerSecondAmOrPm
 id spinnerSecondTime
 id spinnerThirdTime
@@ -1183,10 +1189,12 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acctivity_weekschedule
+layout activity_calculategpa
 layout activity_courseclick
 layout activity_courses
 layout activity_grade
 layout activity_main
+layout activity_mylist
 layout activity_professor
 layout activity_reminders
 layout activity_tasks

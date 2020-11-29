@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button Assignments;
     private Button Reminders;
     private TextView ToBeAdded;
+    //Temporary Button to run code for task #47
+    private Button GPA;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.Grades=(Button)this.findViewById(R.id.Grades);
         this.Assignments=(Button)this.findViewById(R.id.Assignments);
         this.Reminders=(Button)this.findViewById(R.id.Reminders);
+        this.GPA =(Button)this.findViewById(R.id.GPA);
 
         //the Schedule method gonna implement to the function below
         this.Schedule.setOnClickListener(new View.OnClickListener(){
@@ -96,6 +99,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AssignmentScreen.class);
+                startActivity(intent);
+            }
+        });
+
+        this.GPA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CalculateGpa.class);
                 startActivity(intent);
             }
         });

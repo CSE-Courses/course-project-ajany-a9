@@ -1,4 +1,4 @@
-#Mon Nov 09 21:41:21 EST 2020
-base.0=/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Nov 29 18:07:35 EST 2020
+base.0=C\:\\Users\\jessi\\StudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

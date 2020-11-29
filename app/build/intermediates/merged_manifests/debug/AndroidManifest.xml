@@ -52,6 +52,10 @@
             android:name="com.example.beststudy.Course"
             android:label="BestStudy" >
         </activity>
+        <activity
+            android:name="com.example.beststudy.CalculateGpa"
+            android:label="BestStudy" >
+        </activity>
     </application>
 
 </manifest>
