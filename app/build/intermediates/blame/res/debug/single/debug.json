@@ -1,154 +1,158 @@
 [
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_baseline_access_alarm_24.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_access_alarm_24.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_baseline_access_alarm_24.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_baseline_access_alarm_24.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_access_alarm_24.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_access_alarm_24.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_baseline_access_alarm_24.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_baseline_access_alarm_24.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_baseline_access_alarm_24.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_baseline_access_alarm_24.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_remove_class_layout.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/remove_class_layout.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_baseline_access_alarm_24.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-hdpi/ic_baseline_access_alarm_24.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_baseline_access_alarm_24.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_baseline_access_alarm_24.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_calculategpa.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_calculategpa.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_acctivity_weekschedule.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/acctivity_weekschedule.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_grade.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_grade.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_courseclick.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_courseclick.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_calculategpa.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_calculategpa.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_baseline_access_alarm_24.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_baseline_access_alarm_24.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_mylist.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_mylist.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_baseline_access_alarm_24.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_baseline_access_alarm_24.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_acctivity_weekschedule.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/acctivity_weekschedule.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_baseline_access_alarm_24.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_baseline_access_alarm_24.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_mylist.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_mylist.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_reminders.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_reminders.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_remove_class_layout.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/remove_class_layout.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_baseline_access_alarm_24.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_baseline_access_alarm_24.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_tasks.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_tasks.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_professor.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_professor.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_courses.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_courses.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_radio_button.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_radio_button.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_professor.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_professor.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_courseclick.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_courseclick.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_grade.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_grade.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_baseline_access_alarm_24.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-hdpi/ic_baseline_access_alarm_24.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_tasks.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_tasks.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_reminders.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_reminders.xml"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_baseline_access_alarm_24.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_access_alarm_24.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_access_alarm_24.png.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_access_alarm_24.png"
+    },
+    {
+        "merged": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_courses.xml.flat",
+        "source": "/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_courses.xml"
     }
 ]

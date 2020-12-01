@@ -6,98 +6,94 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+8-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+9-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:5:5-51:19
+11-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:5:5-47:19
 12        android:allowBackup="true"
-12-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:6:9-35
+12-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:7:9-77
+13-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:7:9-77
 14        android:debuggable="true"
-14-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:8:9-34
+14-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:8:9-34
 15        android:icon="@mipmap/ic_launcher"
-15-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:9:9-43
+15-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:9:9-43
 16        android:label="@string/app_name"
-16-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:10:9-41
+16-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:10:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:11:9-54
+17-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:11:9-54
 18        android:supportsRtl="true"
-18-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:12:9-35
+18-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:12:9-35
 19        android:testOnly="true"
-19-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:13:9-32
+19-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:13:9-32
 20        android:theme="@style/AppTheme" >
-20-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:14:9-40
-21        <activity android:name="com.example.beststudy.MainActivity" >
-21-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:9-21:20
-21-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:19-68
-22            <intent-filter>
-22-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:16:13-20:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:17:17-69
-23-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:17:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:19:17-77
-25-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:19:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity
-28-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:22:9-25:20
-29            android:name="com.example.beststudy.GradeCalc"
-29-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:23:13-59
-30            android:label="@string/app_name" >
-30-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:24:13-45
-31        </activity>
+20-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:14:9-40
+21        <activity android:name="com.example.beststudy.RadioButtonActivity" />
+21-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:9-66
+21-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:19-54
+22        <activity android:name="com.example.beststudy.MainActivity" >
+22-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:16:9-22:20
+22-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:16:19-47
+23            <intent-filter>
+23-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:17:13-21:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:18:17-69
+24-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:18:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:20:17-77
+26-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:20:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:23:9-25:57
+30            android:name="com.example.beststudy.GradeCalc"
+30-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:24:13-38
+31            android:label="@string/app_name" />
+31-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:25:13-45
 32        <activity
-32-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:26:9-29:20
+32-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:26:9-28:50
 33            android:name="com.example.beststudy.AssignmentScreen"
-33-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:27:13-66
-34            android:label="BestStudy" >
-34-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:28:13-38
-35        </activity>
-36        <activity
-36-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:30:9-33:20
-37            android:name="com.example.beststudy.CalenderReminders"
-37-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:31:13-67
-38            android:label="BestStudy" >
-38-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:32:13-38
-39        </activity>
-40        <activity
-40-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:34:9-37:20
-41            android:name="com.example.beststudy.WeekSchedule"
-41-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:35:13-62
-42            android:label="BestStudy" >
-42-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:36:13-38
-43        </activity>
-44
-45        <receiver android:name="com.example.beststudy.NotificationReceiver" />
-45-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:39:9-79
-45-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:39:19-76
-46
+33-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:27:13-45
+34            android:label="BestStudy" />
+34-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:28:13-38
+35        <activity
+35-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:29:9-31:50
+36            android:name="com.example.beststudy.CalenderReminders"
+36-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:30:13-46
+37            android:label="BestStudy" />
+37-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:31:13-38
+38        <activity
+38-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:32:9-34:50
+39            android:name="com.example.beststudy.WeekSchedule"
+39-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:33:13-41
+40            android:label="BestStudy" />
+40-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:34:13-38
+41
+42        <receiver android:name="com.example.beststudy.NotificationReceiver" />
+42-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:36:9-58
+42-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:36:19-55
+43
+44        <activity
+44-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:38:9-40:50
+45            android:name="com.example.beststudy.Courseclick"
+45-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:39:13-40
+46            android:label="BestStudy" />
+46-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:40:13-38
 47        <activity
-47-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:40:9-43:20
-48            android:name="com.example.beststudy.Courseclick"
-48-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:41:13-40
-49            android:label="BestStudy" >
-49-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:42:13-40
-50        </activity>
-51        <activity
-51-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:44:9-46:20
-52            android:name="com.example.beststudy.Course"
-52-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:44:19-41
-53            android:label="BestStudy" >
-53-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:45:13-40
-54        </activity>
-55        <activity
-55-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:47:9-50:20
-56            android:name="com.example.beststudy.CalculateGpa"
-56-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:48:13-62
-57            android:label="BestStudy" >
-57-->/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:49:13-38
-58        </activity>
-59    </application>
-60
-61</manifest>
+47-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:41:9-43:50
+48            android:name="com.example.beststudy.Course"
+48-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:42:13-35
+49            android:label="BestStudy" />
+49-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:43:13-38
+50        <activity
+50-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:44:9-46:50
+51            android:name="com.example.beststudy.CalculateGpa"
+51-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:45:13-41
+52            android:label="BestStudy" />
+52-->/Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:46:13-38
+53    </application>
+54
+55</manifest>
