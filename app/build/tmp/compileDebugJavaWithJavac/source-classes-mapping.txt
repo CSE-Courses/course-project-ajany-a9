@@ -44,15 +44,16 @@ com/example/beststudy/AssignmentScreen.java
  com.example.beststudy.AssignmentScreen$1$2
  com.example.beststudy.AssignmentScreen$2
  com.example.beststudy.AssignmentScreen$3
-com/example/beststudy/ProfessorActivity.java
- com.example.beststudy.ProfessorActivity
 com/example/beststudy/scheduleDatabase.java
  com.example.beststudy.scheduleDatabase
+com/example/beststudy/ProfessorActivity.java
+ com.example.beststudy.ProfessorActivity
 com/example/beststudy/CoursesDataBase.java
  com.example.beststudy.CoursesDataBase
 com/example/beststudy/CalculateGpa.java
  com.example.beststudy.CalculateGpa
  com.example.beststudy.CalculateGpa$1
+ com.example.beststudy.CalculateGpa$2
  com.example.beststudy.tripleString
 com/example/beststudy/MainActivity.java
  com.example.beststudy.MainActivity

@@ -68,6 +68,15 @@ public class CalculateGpa extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, grades);
         spinner.setAdapter(adapter);
 
+
+        final Button buttonCalc = findViewById(R.id.calcGpa);
+        buttonCalc.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                calculate();
+            }
+        });
+
+
         /*spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
@@ -146,6 +155,9 @@ public class CalculateGpa extends AppCompatActivity {
         if(cred.length() != 0){
             numOfCredits.setText("");
         }
+        if(cred.isEmpty()){
+            cred = "0";
+        }
 
         tripleString newData = new tripleString(course, letterGrade, cred);
 
@@ -172,7 +184,78 @@ public class CalculateGpa extends AppCompatActivity {
     }
 
     //Task #48
-    /*public void calculate(){
 
-    }*/
+    /**
+     * Go through grade table, calculate the GPA and then display it.
+     */
+    private void calculate(){
+        double gpa = 0.00;
+        double credits = 0.00;
+        //Get all values in user created list
+        for(int i = 0; i < gradeTableDataArray.size(); i++){
+            String creditCount = gradeTableDataArray.get(i).c;
+            double _credits = Double.parseDouble(creditCount);
+            credits += _credits;
+            gpa += letterToPoints(gradeTableDataArray.get(i).b) * _credits;
+        }
+        if(credits <= 0.00){
+            return;
+        }
+        gpa /= credits;
+        //Get the "Average: " EditText item
+        TextView tv = (TextView)findViewById(R.id.outputGpa);
+        //Set the text to whatever the calculated avg is, 0.0 for an empty list
+        tv.setText("GPA: " + Double.toString(gpa));
+    }
+
+    /**
+     *
+     * @param grade The letter grade [A, F]
+     * @return The equilivent point grade [4.00, 0.00]
+     */
+    private double letterToPoints(String grade) {
+        double retVal = 0.00;
+        switch(grade)
+        {
+            case "A":
+                retVal = 4.0;
+                break;
+            case "A-":
+                retVal = 3.67;
+                break;
+            case "B+":
+                retVal = 3.33;
+                break;
+            case "B":
+                retVal = 3.00;
+                break;
+            case "B-":
+                retVal = 2.67;
+                break;
+            case "C+":
+                retVal = 2.33;
+                break;
+            case "C":
+                retVal = 2.00;
+                break;
+            case "C-":
+                retVal = 1.67;
+                break;
+            case "D+":
+                retVal = 1.33;
+                break;
+            case "D":
+                retVal = 1.00;
+                break;
+            case "D-":
+                retVal = 0.67;
+                break;
+            default:
+                retVal = 0.00;
+                break;
+        }
+        return retVal;
+    }
+
+
 }

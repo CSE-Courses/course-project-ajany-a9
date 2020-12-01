@@ -919,6 +919,7 @@ id bounce
 id button
 id buttonPanel
 id calcButton
+id calcGpa
 id calender_view
 id center
 id center_vertical
@@ -1027,6 +1028,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id outputGpa
 id outputGrade
 id packed
 id parent
