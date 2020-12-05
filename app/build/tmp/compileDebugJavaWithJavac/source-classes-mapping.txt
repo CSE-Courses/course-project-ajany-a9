@@ -14,14 +14,20 @@ com/example/beststudy/Course.java
  com.example.beststudy.CourseSet
 com/example/beststudy/AssignmentItem.java
  com.example.beststudy.AssignmentItem
-com/example/beststudy/CalculateGpa.java
- com.example.beststudy.CalculateGpa
- com.example.beststudy.CalculateGpa$1
- com.example.beststudy.CalculateGpa$2
- com.example.beststudy.tripleString
-com/example/beststudy/RadioButtonActivity.java
- com.example.beststudy.RadioButtonActivity
- com.example.beststudy.RadioButtonActivity$1
+com/example/beststudy/MainActivity.java
+ com.example.beststudy.MainActivity
+ com.example.beststudy.MainActivity$1
+ com.example.beststudy.MainActivity$2
+ com.example.beststudy.MainActivity$3
+ com.example.beststudy.MainActivity$4
+ com.example.beststudy.MainActivity$5
+ com.example.beststudy.MainActivity$6
+com/example/beststudy/CalenderReminders.java
+ com.example.beststudy.CalenderReminders
+ com.example.beststudy.CalenderReminders$1
+ com.example.beststudy.CalenderReminders$2
+ com.example.beststudy.CalenderReminders$3
+ com.example.beststudy.dateTuple
 com/example/beststudy/AssignmentDatabase.java
  com.example.beststudy.AssignmentDatabase
 com/example/beststudy/BuildConfig.java
@@ -52,17 +58,12 @@ com/example/beststudy/ProfessorActivity.java
  com.example.beststudy.ProfessorActivity
 com/example/beststudy/CoursesDataBase.java
  com.example.beststudy.CoursesDataBase
-com/example/beststudy/CalenderReminders.java
- com.example.beststudy.CalenderReminders
- com.example.beststudy.CalenderReminders$1
- com.example.beststudy.CalenderReminders$2
- com.example.beststudy.CalenderReminders$3
- com.example.beststudy.dateTuple
-com/example/beststudy/MainActivity.java
- com.example.beststudy.MainActivity
- com.example.beststudy.MainActivity$1
- com.example.beststudy.MainActivity$2
- com.example.beststudy.MainActivity$3
- com.example.beststudy.MainActivity$4
- com.example.beststudy.MainActivity$5
- com.example.beststudy.MainActivity$6
+com/example/beststudy/CalculateGpa.java
+ com.example.beststudy.CalculateGpa
+ com.example.beststudy.CalculateGpa$1
+ com.example.beststudy.CalculateGpa$2
+ com.example.beststudy.CalculateGpa$3
+ com.example.beststudy.tripleString
+com/example/beststudy/RadioButtonActivity.java
+ com.example.beststudy.RadioButtonActivity
+ com.example.beststudy.RadioButtonActivity$1

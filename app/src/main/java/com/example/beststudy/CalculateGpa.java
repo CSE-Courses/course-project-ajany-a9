@@ -76,6 +76,14 @@ public class CalculateGpa extends AppCompatActivity {
             }
         });
 
+        final Button buttonClear = findViewById(R.id.clearClasses);
+        buttonClear.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                clearAll();
+            }
+        });
+
+
 
         /*spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -117,6 +125,16 @@ public class CalculateGpa extends AppCompatActivity {
                 addData();
             }
         });
+    }
+
+    /**
+     * Clears all entered grades and backing data.
+     */
+    private void clearAll(){
+        gradeTableDataArray.clear();
+        while(gradeTablelayout.getChildCount() > 1){
+            gradeTablelayout.removeViewAt(1);
+        }
     }
 
     //Adam's Code for initializing a table from GradeCalc.java

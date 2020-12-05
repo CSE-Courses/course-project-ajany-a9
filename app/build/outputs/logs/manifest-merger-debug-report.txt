@@ -1,190 +1,190 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/b07c35e765e8193abd69cce104d7a719/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/1a81e98fa865557ca2dbced7e64cc903/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f42873215a642c223e03c885c54840c9/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/5f0822d637a5ae6e46524dd8cb61c2cf/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/0ca7c9f9d480af89e353e754c141558b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/a36c06a8ff2511c26c874fe75f1d5c0b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/caabd69fdc10861e63ce773a41dc3db4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/e5113bf0a7248df23f50561a3ee48b86/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f6ad38dd8e264c8eb05123bf6b41c7c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/ba24e603aa81e1ab2f610c188a2a2ed7/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/9a2c17366cc7120146160a7d8d03f741/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/b44e0078f882d696ef2b2113ae669d10/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/166484e52f5679a3adef70fa061f6a1b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/bc2f8dad7897cde03bfe2d21e2535823/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/856d6b7546d7a43faf534bd3aab3e681/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/1e2e1243dfcdc61fa4bd0b4db2584b4e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f95d32301cba80705d03c6ab35206def/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/85cfa31006e48403faf486afdca29085/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/b07c35e765e8193abd69cce104d7a719/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/1a81e98fa865557ca2dbced7e64cc903/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f42873215a642c223e03c885c54840c9/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/5f0822d637a5ae6e46524dd8cb61c2cf/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/0ca7c9f9d480af89e353e754c141558b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/a36c06a8ff2511c26c874fe75f1d5c0b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/caabd69fdc10861e63ce773a41dc3db4/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/e5113bf0a7248df23f50561a3ee48b86/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f6ad38dd8e264c8eb05123bf6b41c7c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/ba24e603aa81e1ab2f610c188a2a2ed7/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/9a2c17366cc7120146160a7d8d03f741/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/b44e0078f882d696ef2b2113ae669d10/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/166484e52f5679a3adef70fa061f6a1b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/bc2f8dad7897cde03bfe2d21e2535823/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/856d6b7546d7a43faf534bd3aab3e681/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/1e2e1243dfcdc61fa4bd0b4db2584b4e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f95d32301cba80705d03c6ab35206def/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/85cfa31006e48403faf486afdca29085/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
 	package
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:3:5-36
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:1-49:12
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:5:5-47:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.3.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:5:5-47:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:supportsRtl
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:10:9-41
 	android:appComponentFactory
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:7:9-77
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:7:9-77
 	android:debuggable
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:8:9-34
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:8:9-34
 	android:testOnly
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:13:9-32
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:13:9-32
 	android:roundIcon
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.example.beststudy.RadioButtonActivity
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:9-66
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:9-66
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:19-54
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:15:19-54
 activity#com.example.beststudy.MainActivity
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:16:9-22:20
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:16:19-47
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.example.beststudy.GradeCalc
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:23:9-25:57
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:23:9-25:57
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:25:13-45
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:24:13-38
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:24:13-38
 activity#com.example.beststudy.AssignmentScreen
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:26:9-28:50
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:26:9-28:50
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:28:13-38
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:28:13-38
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:27:13-45
 activity#com.example.beststudy.CalenderReminders
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:29:9-31:50
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:29:9-31:50
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:31:13-38
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:31:13-38
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:30:13-46
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:30:13-46
 activity#com.example.beststudy.WeekSchedule
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:32:9-34:50
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:32:9-34:50
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:34:13-38
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:34:13-38
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:33:13-41
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:33:13-41
 receiver#com.example.beststudy.NotificationReceiver
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:36:9-58
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:36:9-58
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:36:19-55
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:36:19-55
 activity#com.example.beststudy.Courseclick
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:38:9-40:50
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:38:9-40:50
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:40:13-38
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:40:13-38
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:39:13-40
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:39:13-40
 activity#com.example.beststudy.Course
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:41:9-43:50
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:41:9-43:50
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:43:13-38
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:43:13-38
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:42:13-35
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:42:13-35
 activity#com.example.beststudy.CalculateGpa
-ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:44:9-46:50
+ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:44:9-46:50
 	android:label
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:46:13-38
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:46:13-38
 	android:name
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml:45:13-41
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml:45:13-41
 uses-sdk
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/b07c35e765e8193abd69cce104d7a719/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/b07c35e765e8193abd69cce104d7a719/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/1a81e98fa865557ca2dbced7e64cc903/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/1a81e98fa865557ca2dbced7e64cc903/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f42873215a642c223e03c885c54840c9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f42873215a642c223e03c885c54840c9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/5f0822d637a5ae6e46524dd8cb61c2cf/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/5f0822d637a5ae6e46524dd8cb61c2cf/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/0ca7c9f9d480af89e353e754c141558b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/0ca7c9f9d480af89e353e754c141558b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/a36c06a8ff2511c26c874fe75f1d5c0b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/a36c06a8ff2511c26c874fe75f1d5c0b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/caabd69fdc10861e63ce773a41dc3db4/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/caabd69fdc10861e63ce773a41dc3db4/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/e5113bf0a7248df23f50561a3ee48b86/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/e5113bf0a7248df23f50561a3ee48b86/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f6ad38dd8e264c8eb05123bf6b41c7c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f6ad38dd8e264c8eb05123bf6b41c7c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/ba24e603aa81e1ab2f610c188a2a2ed7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/ba24e603aa81e1ab2f610c188a2a2ed7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/9a2c17366cc7120146160a7d8d03f741/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/9a2c17366cc7120146160a7d8d03f741/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/b44e0078f882d696ef2b2113ae669d10/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/b44e0078f882d696ef2b2113ae669d10/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/166484e52f5679a3adef70fa061f6a1b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/166484e52f5679a3adef70fa061f6a1b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/bc2f8dad7897cde03bfe2d21e2535823/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/bc2f8dad7897cde03bfe2d21e2535823/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/856d6b7546d7a43faf534bd3aab3e681/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/856d6b7546d7a43faf534bd3aab3e681/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/1e2e1243dfcdc61fa4bd0b4db2584b4e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/1e2e1243dfcdc61fa4bd0b4db2584b4e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f95d32301cba80705d03c6ab35206def/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/f95d32301cba80705d03c6ab35206def/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/85cfa31006e48403faf486afdca29085/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/afeedaiyan/.gradle/caches/transforms-2/files-2.1/85cfa31006e48403faf486afdca29085/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/cd7bff2e3044c1566ab06a44cbc5e97c/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/b07c35e765e8193abd69cce104d7a719/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/b07c35e765e8193abd69cce104d7a719/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/1a81e98fa865557ca2dbced7e64cc903/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/1a81e98fa865557ca2dbced7e64cc903/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f42873215a642c223e03c885c54840c9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f42873215a642c223e03c885c54840c9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/5f0822d637a5ae6e46524dd8cb61c2cf/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/5f0822d637a5ae6e46524dd8cb61c2cf/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/0ca7c9f9d480af89e353e754c141558b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/0ca7c9f9d480af89e353e754c141558b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/a36c06a8ff2511c26c874fe75f1d5c0b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/a36c06a8ff2511c26c874fe75f1d5c0b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/caabd69fdc10861e63ce773a41dc3db4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/caabd69fdc10861e63ce773a41dc3db4/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/e5113bf0a7248df23f50561a3ee48b86/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/e5113bf0a7248df23f50561a3ee48b86/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f6ad38dd8e264c8eb05123bf6b41c7c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f6ad38dd8e264c8eb05123bf6b41c7c2/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/ba24e603aa81e1ab2f610c188a2a2ed7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/ba24e603aa81e1ab2f610c188a2a2ed7/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/9a2c17366cc7120146160a7d8d03f741/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/9a2c17366cc7120146160a7d8d03f741/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/adam/.gradle/caches/transforms-2/files-2.1/2eaed64326eb48b5bae2b5fb17ac6685/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/d53310793ebfc06f30641f0fe2c506c8/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/b44e0078f882d696ef2b2113ae669d10/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/b44e0078f882d696ef2b2113ae669d10/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/166484e52f5679a3adef70fa061f6a1b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/166484e52f5679a3adef70fa061f6a1b/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/bc2f8dad7897cde03bfe2d21e2535823/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/bc2f8dad7897cde03bfe2d21e2535823/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/856d6b7546d7a43faf534bd3aab3e681/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/856d6b7546d7a43faf534bd3aab3e681/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/1e2e1243dfcdc61fa4bd0b4db2584b4e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/1e2e1243dfcdc61fa4bd0b4db2584b4e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f95d32301cba80705d03c6ab35206def/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/f95d32301cba80705d03c6ab35206def/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/85cfa31006e48403faf486afdca29085/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/adam/.gradle/caches/transforms-2/files-2.1/85cfa31006e48403faf486afdca29085/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-		ADDED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/afeedaiyan/StudioProjects/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		ADDED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/AndroidManifest.xml
