@@ -8,12 +8,12 @@
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_access_alarm_24.png"
     },
     {
-        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_access_alarm_24.png.flat",
-        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_access_alarm_24.png"
-    },
-    {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_baseline_access_alarm_24.png.flat",
+        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-mdpi/ic_baseline_access_alarm_24.png"
     },
     {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_baseline_access_alarm_24.png.flat",
@@ -32,12 +32,20 @@
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_remove_class_layout.xml.flat",
+        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/remove_class_layout.xml"
+    },
+    {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_calculategpa.xml.flat",
+        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_calculategpa.xml"
     },
     {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
@@ -64,6 +72,10 @@
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_mylist.xml.flat",
+        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_mylist.xml"
+    },
+    {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -78,6 +90,10 @@
     {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_baseline_access_alarm_24.xml.flat",
         "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_baseline_access_alarm_24.xml"
+    },
+    {
+        "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_radio_button.xml.flat",
+        "source": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/src/main/res/layout/activity_radio_button.xml"
     },
     {
         "merged": "/Users/adam/Documents/GitHub/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",

@@ -11,8 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.example.beststudy.MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".RadioButtonActivity"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,31 +21,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.beststudy.GradeCalc"
-            android:label="@string/app_name" >
-        </activity>
+            android:name=".GradeCalc"
+            android:label="@string/app_name"></activity>
         <activity
-            android:name="com.example.beststudy.AssignmentScreen"
-            android:label="BestStudy" >
-        </activity>
+            android:name=".AssignmentScreen"
+            android:label="BestStudy"></activity>
         <activity
-            android:name="com.example.beststudy.CalenderReminders"
-            android:label="BestStudy" >
-        </activity>
+            android:name=".CalenderReminders"
+            android:label="BestStudy"></activity>
         <activity
-            android:name="com.example.beststudy.WeekSchedule"
-            android:label="BestStudy" >
-        </activity>
+            android:name=".WeekSchedule"
+            android:label="BestStudy"></activity>
 
-        <receiver android:name="com.example.beststudy.NotificationReceiver" />
+        <receiver android:name=".NotificationReceiver" />
+
         <activity
             android:name=".Courseclick"
-            android:label = "BestStudy" >
-        </activity>
-        <activity android:name=".Course"
-            android:label = "BestStudy">
-        </activity>
-
+            android:label="BestStudy"></activity>
+        <activity
+            android:name=".Course"
+            android:label="BestStudy"></activity>
+        <activity
+            android:name=".CalculateGpa"
+            android:label="BestStudy"></activity>
     </application>
 
 </manifest>

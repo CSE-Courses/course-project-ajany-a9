@@ -819,6 +819,7 @@ id ALT
 id AllCoursesTitle
 id Appear
 id Assignments
+id CGrade
 id CTRL
 id Class
 id CourseList
@@ -829,8 +830,10 @@ id NO_DEBUG
 id NewClass
 id PA_text
 id Professor
+id RGroup
 id RelativeLayout1
 id Reminders
+id SGPA
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -890,11 +893,13 @@ id action_mode_bar_stub
 id action_mode_close_button
 id action_text
 id actions
+id activityDescription
 id activity_chooser_view_content
 id add
 id addButton
 id addClassButton
 id addClassLayout
+id addInfo
 id add_rem_button
 id alertTitle
 id aligned
@@ -916,6 +921,7 @@ id bounce
 id button
 id buttonPanel
 id calcButton
+id calcGpa
 id calender_view
 id center
 id center_vertical
@@ -927,6 +933,7 @@ id chronometer
 id classNameEText
 id classNameLayout
 id classNameText
+id clearClasses
 id clear_rem_button
 id collapseActionView
 id colonOfAddClassLayout
@@ -934,6 +941,8 @@ id colonText
 id content
 id contentPanel
 id cos
+id courseName
+id credits
 id custom
 id customPanel
 id date_view
@@ -1022,6 +1031,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id outputGpa
 id outputGrade
 id packed
 id parent
@@ -1076,6 +1086,7 @@ id spacer
 id spinnerFirstAmOrPm
 id spinnerFirstTime
 id spinnerForthTime
+id spinnerGrade
 id spinnerSecondAmOrPm
 id spinnerSecondTime
 id spinnerThirdTime
@@ -1183,11 +1194,14 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acctivity_weekschedule
+layout activity_calculategpa
 layout activity_courseclick
 layout activity_courses
 layout activity_grade
 layout activity_main
+layout activity_mylist
 layout activity_professor
+layout activity_radio_button
 layout activity_reminders
 layout activity_tasks
 layout custom_dialog
