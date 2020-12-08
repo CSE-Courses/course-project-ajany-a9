@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -96,6 +97,16 @@ public class Course extends AppCompatActivity {
                 }
             }
             });
+        AllInput.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                data.removeCourse(AllCourse.get(position).getClassName());
+                AllCourse.remove(position);
+                adapter.notifyDataSetChanged();
+               //Toast.makeText(getApplicationContext(), "Course Deleted", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
 
 
 
