@@ -2,7 +2,6 @@ package com.example.beststudy;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.database.ContentObservable;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -12,8 +11,9 @@ import androidx.annotation.Nullable;
 public class scheduleDatabase extends SQLiteOpenHelper {
     public static final String CLASS_NAME = "CLASS_NAME";
     public static final String SCHEDULE_TABLE = "SCHEDULE_TABLE";
-    public static final String ROW_SCHEDULE = "ROW_SCHEDULE";
-    public static final String COLON_SCHEDULE = "COLON_SCHEDULE";
+    public static final String START_TIME= "START_TIME";
+    public static final String END_TIME = "END_TIME";
+    public static final String WEEK_DAY = "WEEK_DAY";
 
     public scheduleDatabase(@Nullable Context context) {
         super(context, "schedule.db", null, 1);
@@ -22,17 +22,17 @@ public class scheduleDatabase extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String createScheduleTable= "CREATE TABLE " + SCHEDULE_TABLE + " (ID INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + CLASS_NAME + " TEXT, " + ROW_SCHEDULE + " INT, " + COLON_SCHEDULE + " INT)";
+                + CLASS_NAME + " TEXT, " + START_TIME + " TEXT, " + END_TIME + " TEXT)";
 
         db.execSQL(createScheduleTable);
     }
 
-    public boolean insertClass(int i, int j, String classInfo){
+    public boolean insertClass(String classInfo, String startTime, String endTime){
         SQLiteDatabase db =this.getWritableDatabase();
         ContentValues cv =new ContentValues();
         cv.put(CLASS_NAME, classInfo);
-        cv.put(ROW_SCHEDULE, j);
-        cv.put(COLON_SCHEDULE, i);
+        cv.put(START_TIME, startTime);
+        cv.put(END_TIME, endTime);
 
         Long insert = db.insert(SCHEDULE_TABLE, null, cv);
         if(insert==-1){
