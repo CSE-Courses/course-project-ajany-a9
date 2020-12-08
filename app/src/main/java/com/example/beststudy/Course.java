@@ -4,12 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.nio.ShortBuffer;
 import java.util.ArrayList;
@@ -72,24 +74,49 @@ public class Course extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                courseNamestr = courseN.getText().toString();
-                courseTimestr = courseT.getText().toString();
-                profNamestr = profN.getText().toString();
-                zoomLinkstr = zoomL.getText().toString();
-                courseEnd = endCourse.getText().toString();
-                courseDay = courseD.getText().toString();
+                courseNamestr = courseN.getText().toString() + " ";
+                courseTimestr = courseT.getText().toString() + " ";
+                profNamestr = profN.getText().toString() + " ";
+                zoomLinkstr = zoomL.getText().toString() + " ";
+                courseEnd = endCourse.getText().toString() + " ";
+                courseDay = courseD.getText().toString() + " ";
                 CourseDetail curr = new CourseDetail(courseNamestr, courseTimestr, courseEnd, profNamestr, zoomLinkstr, courseDay);
-                data.insertCourse(courseNamestr,courseTimestr, courseEnd, profNamestr, courseDay, zoomLinkstr);
-                AllCourse.add(curr);
-                ShowClasses();
-
+                if (data.insertCourse(courseNamestr, courseTimestr, courseEnd, profNamestr, courseDay, zoomLinkstr)) {
+                    //AllCourse.add(curr);
+                    courseN.setText("");
+                    courseT.setText("");
+                    profN.setText("");
+                    zoomL.setText("");
+                    endCourse.setText("");
+                    courseD.setText("");
+                    AllCourse.clear();
+                    ShowClasses();
+                } else {
+                    Toast.makeText(Course.this, "Course Not Added", Toast.LENGTH_SHORT).show();
+                }
             }
-        });
+            });
 
 
 
     }
     public void ShowClasses(){
+        Cursor cursor = data.viewData();
+        if(cursor.getCount() == 0){
+            Toast.makeText(this, "No Courses Added", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            while(cursor.moveToNext()){
+                CourseDetail toShow = new CourseDetail("", "", "", "", "", "");
+                toShow.setClassName(cursor.getString(1));
+                toShow.setClassStart(cursor.getString(2));
+                toShow.setClassEnd(cursor.getString(3));
+                toShow.setClassProf(cursor.getString(4));
+                toShow.setClassDay(cursor.getString(5));
+                toShow.setClassLink(cursor.getString(6));
+                AllCourse.add(toShow);
+            }
+        }
         adapter = new CourseAdapter(this, AllCourse);
         AllInput.setAdapter(adapter);
     }

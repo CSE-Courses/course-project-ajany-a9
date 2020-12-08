@@ -37,6 +37,25 @@ public class CourseDetail {
         return classDay;
     }
 
+    public void setClassName(String name){
+        this.className = name;
+    }
+    public void setClassStart (String start){
+        this.classStart = start;
+    }
+    public void setClassEnd (String end){
+        this.classEnd = end;
+    }
+    public void setClassProf (String prof){
+        this.classProf = prof;
+     }
+     public void setClassLink(String link){
+        this.classLink = link;
+     }
+     public void setClassDay(String day){
+        this.classDay = day;
+     }
+
     public String getFullClass(){
         String full = className + " " + classProf + " " + classDay + " " + classStart + " " +classEnd + " " + classLink;
         return full;

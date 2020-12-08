@@ -20,6 +20,8 @@ public class CoursesDataBase extends SQLiteOpenHelper {
     private static final String CourseDay = "CourseDay";
     private static final String Zoom = "ZoomLink";
 
+    private boolean startUp = true;
+
     private static final String CREATE_TABLE = "CREATE TABLE "+ currentTable+" ("+ " INTEGER PRIMARY KEY, "+ CName + " TEXT," + StartTime + " TEXT,"+ EndTime + " TEXT," + Professor + " TEXT," + CourseDay + " TEXT," + Zoom+ " TEXT" + ")";
 
     public CoursesDataBase(Context context){
@@ -56,8 +58,17 @@ public class CoursesDataBase extends SQLiteOpenHelper {
         return true;
     }
 
+    public void OnUpgrade(SQLiteDatabase db, int OldVersion, int NewVersion){
+        db.execSQL("DROP TABLE IF EXISTS " + currentTable);
+        onCreate(db);
+    }
+
     public Cursor viewData(){
         SQLiteDatabase db = this.getReadableDatabase();
+        if(startUp){
+            startUp = false;
+            OnUpgrade(db, 1, 1);
+        }
         String query = "Select * from " + currentTable;
         Cursor cursor = db.rawQuery(query, null);
         return cursor;
