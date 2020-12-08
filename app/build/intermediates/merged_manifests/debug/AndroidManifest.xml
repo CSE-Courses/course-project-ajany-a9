@@ -33,6 +33,10 @@
             android:name="com.example.beststudy.WeekSchedule"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.example.beststudy.ListButtonView"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

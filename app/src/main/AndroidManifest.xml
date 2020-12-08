@@ -26,6 +26,10 @@
             android:name=".WeekSchedule"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".ListButtonView"
+            android:label="@string/app_name" >
+        </activity>
 
     </application>
 

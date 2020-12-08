@@ -1,11 +1,19 @@
 [
     {
+        "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\layout_schedule_layout.xml.flat",
+        "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\src\\main\\res\\layout\\schedule_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\layout_listbutton_layout.xml.flat",
+        "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\src\\main\\res\\layout\\listbutton_layout.xml"
     },
     {
         "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -24,10 +32,6 @@
         "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\src\\main\\res\\layout\\activity_grade.xml"
     },
     {
-        "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\layout_acctivity_weekschedule.xml.flat",
-        "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\src\\main\\res\\layout\\acctivity_weekschedule.xml"
-    },
-    {
         "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
@@ -42,10 +46,6 @@
     {
         "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\layout_remove_class_layout.xml.flat",
-        "source": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\src\\main\\res\\layout\\remove_class_layout.xml"
     },
     {
         "merged": "C:\\Users\\DEATH DOCTOR\\AndroidStudioProjects\\course-project-ajany-a9\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
