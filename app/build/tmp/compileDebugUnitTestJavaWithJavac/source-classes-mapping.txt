@@ -1,4 +1,0 @@
-com/example/beststudy/ExampleUnitTest.java
- com.example.beststudy.ExampleUnitTest
-com/example/beststudy/RemindersUnitTest.java
- com.example.beststudy.RemindersUnitTest

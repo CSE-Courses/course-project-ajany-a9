@@ -45,10 +45,10 @@ public class AssignmentAdapter extends ArrayAdapter<AssignmentItem> {
             convertView.setBackgroundColor(Color.WHITE);
         }
         else if (item.mStatus.equals("inProgress")) {
-            convertView.setBackgroundColor(Color.YELLOW);
+            convertView.setBackgroundColor(Color.rgb(255,255,102));
         }
         else if (item.mStatus.equals("completed")) {
-            convertView.setBackgroundColor(Color.GREEN);
+            convertView.setBackgroundColor(Color.rgb(204,255,204));
         }
         else {
             convertView.setBackgroundColor(Color.WHITE);

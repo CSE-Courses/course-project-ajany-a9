@@ -65,7 +65,7 @@ public class AssignmentScreen extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         //OnClick on In Progress will highlight the assignment on ListView Yellow
-                        listView.getChildAt(position).setBackgroundColor(Color.YELLOW);
+                        listView.getChildAt(position).setBackgroundColor(Color.rgb(255,255,102));
                         assignments.get(position).mStatus = "inProgress";
                         db.updateData(assignments.get(position).mDescription, "inProgress");
                     }
@@ -75,7 +75,7 @@ public class AssignmentScreen extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         //OnClick on Completed will highlight the assignment on ListView Green
-                        listView.getChildAt(position).setBackgroundColor(Color.GREEN);
+                        listView.getChildAt(position).setBackgroundColor(Color.rgb(204,255,204));
                         assignments.get(position).mStatus = "completed";
                         db.updateData(assignments.get(position).mDescription, "completed");
                     }

@@ -937,7 +937,6 @@ id clearClasses
 id clear_rem_button
 id collapseActionView
 id colonOfAddClassLayout
-id colonText
 id content
 id contentPanel
 id cos

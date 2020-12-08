@@ -135,6 +135,9 @@ public class CalculateGpa extends AppCompatActivity {
         while(gradeTablelayout.getChildCount() > 1){
             gradeTablelayout.removeViewAt(1);
         }
+        //CLear GPA
+        TextView tv = (TextView)findViewById(R.id.outputGpa);
+        tv.setText("Semester GPA: ");
     }
 
     //Adam's Code for initializing a table from GradeCalc.java
@@ -143,15 +146,18 @@ public class CalculateGpa extends AppCompatActivity {
         gradeTablelayout = (TableLayout) findViewById(R.id.table_main);
         TableRow tbrow0 = new TableRow(this);
         TextView tv0 = new TextView(this);
-        tv0.setText(" Course Name ");
+        tv0.setText(" Course Name   ");
+        tv0.setTextSize(26);
         tv0.setTextColor(Color.BLACK);
         tbrow0.addView(tv0);
         TextView tv1 = new TextView(this);
-        tv1.setText(" Grade ");
+        tv1.setText(" Grade   ");
+        tv1.setTextSize(26);
         tv1.setTextColor(Color.BLACK);
         tbrow0.addView(tv1);
         TextView tv2 = new TextView(this);
         tv2.setText(" Credits ");
+        tv2.setTextSize(26);
         tv2.setTextColor(Color.BLACK);
         tbrow0.addView(tv2);
         gradeTablelayout.addView(tbrow0);
@@ -185,18 +191,21 @@ public class CalculateGpa extends AppCompatActivity {
         TableRow tbrow = new TableRow(this);
         TextView tv0 = new TextView(this);
         tv0.setText(course);
-        tv0.setTextColor(Color.BLACK);
+        tv0.setTextColor(Color.BLUE);
         tv0.setGravity(Gravity.CENTER);
+        tv0.setTextSize(20);
         tbrow.addView(tv0);
         TextView tv1 = new TextView(this);
         tv1.setText(letterGrade);
-        tv1.setTextColor(Color.BLACK);
+        tv1.setTextColor(Color.BLUE);
         tv1.setGravity(Gravity.CENTER);
+        tv1.setTextSize(20);
         tbrow.addView(tv1);
         TextView tv2 = new TextView(this);
         tv2.setText(cred);
-        tv2.setTextColor(Color.BLACK);
+        tv2.setTextColor(Color.BLUE);
         tv2.setGravity(Gravity.CENTER);
+        tv2.setTextSize(20);
         tbrow.addView(tv2);
         gradeTablelayout.addView(tbrow);
     }
@@ -223,7 +232,7 @@ public class CalculateGpa extends AppCompatActivity {
         //Get the "Average: " EditText item
         TextView tv = (TextView)findViewById(R.id.outputGpa);
         //Set the text to whatever the calculated avg is, 0.0 for an empty list
-        tv.setText("GPA: " + Double.toString(gpa));
+        tv.setText("Semester GPA: " + Double.toString(gpa));
     }
 
     /**

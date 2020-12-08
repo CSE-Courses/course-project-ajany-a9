@@ -15,16 +15,16 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Semester GPA"
+            android:text="Class Grade"
             android:textSize="30sp"
-            android:id="@+id/SGPA"/>
+            android:id="@+id/CGrade"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Class Grade"
+            android:text="Semester GPA"
             android:textSize="30sp"
-            android:id="@+id/CGrade"/>
+            android:id="@+id/SGPA"/>
     </RadioGroup>
 
 </RelativeLayout>

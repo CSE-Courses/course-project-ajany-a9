@@ -14,16 +14,21 @@
     <TextView
         android:id="@+id/dueDateTextView"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="70dp"
         android:layout_above="@id/editText2"
         android:layout_below="@id/listView"
-        android:text="Due Date:  " />
+        android:layout_marginBottom="38dp"
+        android:text="Due Date :  "
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/monthTextView"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:text="Month:"
+        android:textStyle="bold"
+        android:text="  Month"
+        android:textSize="16sp"
         android:layout_toRightOf="@id/dueDateTextView"
         android:layout_below="@id/listView" />
 
@@ -32,8 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_below="@id/listView"
-        android:layout_marginLeft="-43dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginLeft="-62dp"
+        android:layout_marginTop="39dp"
         android:layout_toRightOf="@id/monthTextView"
         android:entries="@array/month" />
 
@@ -46,15 +51,17 @@
         android:layout_marginTop="0dp"
         android:layout_toRightOf="@id/month"
         android:entries="@id/month"
-        android:text="Day:" />
+        android:textStyle="bold"
+        android:text="Day"
+        android:textSize="16sp"/>
 
     <Spinner
         android:id="@+id/day"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_below="@id/listView"
-        android:layout_marginLeft="-31dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginLeft="-28dp"
+        android:layout_marginTop="38dp"
         android:layout_toRightOf="@id/dayTextView"
         android:entries="@array/day" />
 
@@ -66,36 +73,30 @@
         android:layout_marginLeft="7dp"
         android:layout_marginTop="1dp"
         android:layout_toRightOf="@id/day"
-        android:text="Time:" />
+        android:textStyle="bold"
+        android:text="Time (Hour : Minute)"
+        android:textSize="16sp"/>
 
     <Spinner
         android:id="@+id/hour"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_below="@id/listView"
-        android:layout_marginLeft="-41dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginLeft="-152dp"
+        android:layout_marginTop="39dp"
         android:layout_toRightOf="@id/Time"
         android:entries="@array/hour" />
-
-    <TextView
-        android:id="@+id/colonText"
-        android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_below="@id/listView"
-        android:layout_marginLeft="2dp"
-        android:layout_marginTop="41dp"
-        android:layout_toRightOf="@id/hour"
-        android:text=":" />
 
     <Spinner
         android:id="@+id/minute"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
-        android:layout_below="@id/listView"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="35dp"
-        android:layout_toRightOf="@id/colonText"
+        android:layout_below="@+id/Time"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/day"
+        android:layout_toRightOf="@+id/day"
         android:entries="@array/minute" />
 
     <EditText
