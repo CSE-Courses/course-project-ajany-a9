@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class CoursesDataBase extends SQLiteOpenHelper {
     //Current database
     private static final String DatabaseName = " Courses.db";
-    //current database
+    //current database table
     private static final String currentTable = "Course_Table";
 
     //Database Schema
@@ -20,7 +20,9 @@ public class CoursesDataBase extends SQLiteOpenHelper {
     private static final String CourseDay = "CourseDay";
     private static final String Zoom = "ZoomLink";
 
-    private static final String CREATE_TABLE = "CREATE TABLE "+ currentTable+" ("+ " INTEGER PRIMARY KEY, "+ CName + " TEXT," + StartTime + " TEXT,"+ EndTime + " TEXT," + Professor + " TEXT," + CourseDay + " TEXT," + Zoom+ " TEXT" + ")";
+    private boolean startUp = true;
+
+    private static final String CREATE_TABLE = "CREATE TABLE "+ currentTable+" (id"+ " INTEGER PRIMARY KEY, "+ CName + " TEXT," + StartTime + " TEXT,"+ EndTime + " TEXT," + Professor + " TEXT," + CourseDay + " TEXT," + Zoom+ " TEXT" + ")";
 
     public CoursesDataBase(Context context){
         super(context, DatabaseName, null, 1);
@@ -46,18 +48,23 @@ public class CoursesDataBase extends SQLiteOpenHelper {
         cV.put(Professor, instructor);
         cV.put(CourseDay, day);
         cV.put(Zoom, links);
-        db.insert(currentTable, null, cV);
-        return true;
+       long result = db.insert(currentTable, null, cV);
+        return result!=-1;
     }
 
     public boolean removeCourse (String name){
         SQLiteDatabase db = this.getWritableDatabase();
         long removed = db.delete(currentTable, "CName=?", new String[]{name});
-        return true;
+        return removed>0;
     }
+
 
     public Cursor viewData(){
         SQLiteDatabase db = this.getReadableDatabase();
+        if(startUp){
+            startUp = false;
+            onUpgrade(db, 1, 1);
+        }
         String query = "Select * from " + currentTable;
         Cursor cursor = db.rawQuery(query, null);
         return cursor;
