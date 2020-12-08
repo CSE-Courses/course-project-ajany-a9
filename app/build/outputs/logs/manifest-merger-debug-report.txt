@@ -1,190 +1,242 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\b07c35e765e8193abd69cce104d7a719\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1a81e98fa865557ca2dbced7e64cc903\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f42873215a642c223e03c885c54840c9\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\5f0822d637a5ae6e46524dd8cb61c2cf\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\0ca7c9f9d480af89e353e754c141558b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\a36c06a8ff2511c26c874fe75f1d5c0b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\caabd69fdc10861e63ce773a41dc3db4\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\e5113bf0a7248df23f50561a3ee48b86\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f6ad38dd8e264c8eb05123bf6b41c7c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\ba24e603aa81e1ab2f610c188a2a2ed7\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\9a2c17366cc7120146160a7d8d03f741\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2eaed64326eb48b5bae2b5fb17ac6685\core-1.3.1\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\d53310793ebfc06f30641f0fe2c506c8\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\b44e0078f882d696ef2b2113ae669d10\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\166484e52f5679a3adef70fa061f6a1b\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\bc2f8dad7897cde03bfe2d21e2535823\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\856d6b7546d7a43faf534bd3aab3e681\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1e2e1243dfcdc61fa4bd0b4db2584b4e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f95d32301cba80705d03c6ab35206def\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\85cfa31006e48403faf486afdca29085\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6b7c9b8799e3f29e811c61c1b16cec77\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0a3b08e3c84f4bd96a60358fb1bd8c95\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\9d486ea2f3505f108b0eabc38df7cf18\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\2643eca6c9947039aba463a988161d7c\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\92cce67be9775f49d827cfd100534b0a\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\304782fe6f2fafc10bb604e18c71ef8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\fd82080d6277ad597d8267eb707edc21\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\c122b41d69e25d9cd21f31360b3085dc\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\febcc5ebc181c0192ff5fc9998cd27c9\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\20d2fce62f56e7be735c86a166ecc74f\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\577a947dec0f5223691eb8f46fe79a10\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\4c1ca83caf4e44b1b60c72ddb9681c96\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\692f24600955d5ce61b98675080d01b7\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a3046405fd4afe144a078b19dc84989f\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\cbbb0cdf3979b4ecac251e5030aa8904\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\215c0fc2db95840683f07c54b3abc9ad\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\8b33808db4866a16d1ffb81dd5272b66\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e479869d49b761a90dc9115863050374\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0de7cf123f9a9aee9c747329d6756f14\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\35eaa23657da76a818b543848bf89373\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6324c4486dc6c2679f35acad340439f2\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6eb15a180b73b886e198c5ec54aec08e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\38f9809f5069f4bc740d130dabb6217e\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0aa427340bf207111e9257792003a95d\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5d80a03829f50f2e4680f0659c835a73\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6fac1b2e95024e039b910c6d43cf83b9\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\38550d9a2413346f6a75bdc14c056b29\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\07ffe8184980a848b15bc3ce913d6353\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\cee43b22fcf4073f066ae865d2e74b1c\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\12a5f79f906733b274c5c1d7e71b52f8\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\3dfaf98722b66bb64cc1a25be82f9f9a\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a8d9b1a8e7a8459e0b2abb9f1c9affb9\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5953c2ca03ed5040b3416d9c117f253e\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6d1a65ac166cc3a84d62febb6da595e5\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e3b303df9a82a2e250c91bfabc97cf0c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e7a8a791da13d2474c41b4814a7772dd\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a7bba6a1f46630f82921211e83cdac77\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-47:19
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.3.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2eaed64326eb48b5bae2b5fb17ac6685\core-1.3.1\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2eaed64326eb48b5bae2b5fb17ac6685\core-1.3.1\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\d53310793ebfc06f30641f0fe2c506c8\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\d53310793ebfc06f30641f0fe2c506c8\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-	android:supportsRtl
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:12:9-35
-	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:10:9-41
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:5:5-52:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6b7c9b8799e3f29e811c61c1b16cec77\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6b7c9b8799e3f29e811c61c1b16cec77\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0a3b08e3c84f4bd96a60358fb1bd8c95\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0a3b08e3c84f4bd96a60358fb1bd8c95\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.3.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5d80a03829f50f2e4680f0659c835a73\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5d80a03829f50f2e4680f0659c835a73\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6fac1b2e95024e039b910c6d43cf83b9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6fac1b2e95024e039b910c6d43cf83b9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:7:9-77
-	android:debuggable
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:8:9-34
-	android:testOnly
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:13:9-32
+		ADDED from [androidx.core:core:1.3.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5d80a03829f50f2e4680f0659c835a73\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:14:9-40
-activity#com.example.beststudy.RadioButtonActivity
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:15:9-66
-	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:15:19-54
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.beststudy.MainActivity
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.beststudy.RadioButtonActivity
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:21:9-66
+	android:name
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:21:19-54
 activity#com.example.beststudy.GradeCalc
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:23:9-25:57
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:23:9-25:57
 	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:24:13-38
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:24:13-38
 activity#com.example.beststudy.AssignmentScreen
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:26:9-28:50
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:26:9-28:50
 	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:28:13-38
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:28:13-38
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:27:13-45
 activity#com.example.beststudy.CalenderReminders
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:29:9-31:50
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:29:9-31:50
 	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:31:13-38
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:31:13-38
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:30:13-46
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:30:13-46
 activity#com.example.beststudy.WeekSchedule
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:32:9-34:50
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:32:9-35:20
 	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:34:13-38
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:34:13-45
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:33:13-41
+activity#com.example.beststudy.ListButtonView
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:36:9-39:20
+	android:label
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:37:13-43
 receiver#com.example.beststudy.NotificationReceiver
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:36:9-58
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:41:9-58
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:36:19-55
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:41:19-55
 activity#com.example.beststudy.Courseclick
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:38:9-40:50
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:43:9-45:50
 	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:40:13-38
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:45:13-38
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:39:13-40
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:44:13-40
 activity#com.example.beststudy.Course
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:41:9-43:50
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:46:9-48:50
 	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:43:13-38
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:48:13-38
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:42:13-35
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:47:13-35
 activity#com.example.beststudy.CalculateGpa
-ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:44:9-46:50
+ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:49:9-51:50
 	android:label
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:46:13-38
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:51:13-38
 	android:name
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:45:13-41
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml:50:13-41
 uses-sdk
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\cd7bff2e3044c1566ab06a44cbc5e97c\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\b07c35e765e8193abd69cce104d7a719\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\b07c35e765e8193abd69cce104d7a719\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1a81e98fa865557ca2dbced7e64cc903\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1a81e98fa865557ca2dbced7e64cc903\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f42873215a642c223e03c885c54840c9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f42873215a642c223e03c885c54840c9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\5f0822d637a5ae6e46524dd8cb61c2cf\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\5f0822d637a5ae6e46524dd8cb61c2cf\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\0ca7c9f9d480af89e353e754c141558b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\0ca7c9f9d480af89e353e754c141558b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\a36c06a8ff2511c26c874fe75f1d5c0b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\a36c06a8ff2511c26c874fe75f1d5c0b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\caabd69fdc10861e63ce773a41dc3db4\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\caabd69fdc10861e63ce773a41dc3db4\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\e5113bf0a7248df23f50561a3ee48b86\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\e5113bf0a7248df23f50561a3ee48b86\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f6ad38dd8e264c8eb05123bf6b41c7c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f6ad38dd8e264c8eb05123bf6b41c7c2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\ba24e603aa81e1ab2f610c188a2a2ed7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\ba24e603aa81e1ab2f610c188a2a2ed7\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\9a2c17366cc7120146160a7d8d03f741\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\9a2c17366cc7120146160a7d8d03f741\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2eaed64326eb48b5bae2b5fb17ac6685\core-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.1] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2eaed64326eb48b5bae2b5fb17ac6685\core-1.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\d53310793ebfc06f30641f0fe2c506c8\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\d53310793ebfc06f30641f0fe2c506c8\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\b44e0078f882d696ef2b2113ae669d10\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\b44e0078f882d696ef2b2113ae669d10\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\166484e52f5679a3adef70fa061f6a1b\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\166484e52f5679a3adef70fa061f6a1b\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\bc2f8dad7897cde03bfe2d21e2535823\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\bc2f8dad7897cde03bfe2d21e2535823\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\856d6b7546d7a43faf534bd3aab3e681\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\856d6b7546d7a43faf534bd3aab3e681\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1e2e1243dfcdc61fa4bd0b4db2584b4e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1e2e1243dfcdc61fa4bd0b4db2584b4e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f95d32301cba80705d03c6ab35206def\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\f95d32301cba80705d03c6ab35206def\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\85cfa31006e48403faf486afdca29085\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\85cfa31006e48403faf486afdca29085\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6b7c9b8799e3f29e811c61c1b16cec77\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6b7c9b8799e3f29e811c61c1b16cec77\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0a3b08e3c84f4bd96a60358fb1bd8c95\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0a3b08e3c84f4bd96a60358fb1bd8c95\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\9d486ea2f3505f108b0eabc38df7cf18\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\9d486ea2f3505f108b0eabc38df7cf18\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\2643eca6c9947039aba463a988161d7c\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\2643eca6c9947039aba463a988161d7c\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\92cce67be9775f49d827cfd100534b0a\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\92cce67be9775f49d827cfd100534b0a\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\304782fe6f2fafc10bb604e18c71ef8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\304782fe6f2fafc10bb604e18c71ef8b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\fd82080d6277ad597d8267eb707edc21\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\fd82080d6277ad597d8267eb707edc21\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\c122b41d69e25d9cd21f31360b3085dc\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\c122b41d69e25d9cd21f31360b3085dc\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\febcc5ebc181c0192ff5fc9998cd27c9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\febcc5ebc181c0192ff5fc9998cd27c9\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\20d2fce62f56e7be735c86a166ecc74f\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\20d2fce62f56e7be735c86a166ecc74f\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\577a947dec0f5223691eb8f46fe79a10\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\577a947dec0f5223691eb8f46fe79a10\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\4c1ca83caf4e44b1b60c72ddb9681c96\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\4c1ca83caf4e44b1b60c72ddb9681c96\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\692f24600955d5ce61b98675080d01b7\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\692f24600955d5ce61b98675080d01b7\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a3046405fd4afe144a078b19dc84989f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a3046405fd4afe144a078b19dc84989f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\cbbb0cdf3979b4ecac251e5030aa8904\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\cbbb0cdf3979b4ecac251e5030aa8904\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\215c0fc2db95840683f07c54b3abc9ad\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\215c0fc2db95840683f07c54b3abc9ad\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\8b33808db4866a16d1ffb81dd5272b66\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\8b33808db4866a16d1ffb81dd5272b66\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e479869d49b761a90dc9115863050374\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e479869d49b761a90dc9115863050374\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0de7cf123f9a9aee9c747329d6756f14\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0de7cf123f9a9aee9c747329d6756f14\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\35eaa23657da76a818b543848bf89373\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\35eaa23657da76a818b543848bf89373\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6324c4486dc6c2679f35acad340439f2\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6324c4486dc6c2679f35acad340439f2\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6eb15a180b73b886e198c5ec54aec08e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6eb15a180b73b886e198c5ec54aec08e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\38f9809f5069f4bc740d130dabb6217e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\38f9809f5069f4bc740d130dabb6217e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0aa427340bf207111e9257792003a95d\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\0aa427340bf207111e9257792003a95d\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5d80a03829f50f2e4680f0659c835a73\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5d80a03829f50f2e4680f0659c835a73\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6fac1b2e95024e039b910c6d43cf83b9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6fac1b2e95024e039b910c6d43cf83b9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\38550d9a2413346f6a75bdc14c056b29\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\38550d9a2413346f6a75bdc14c056b29\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\07ffe8184980a848b15bc3ce913d6353\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\07ffe8184980a848b15bc3ce913d6353\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\cee43b22fcf4073f066ae865d2e74b1c\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\cee43b22fcf4073f066ae865d2e74b1c\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\12a5f79f906733b274c5c1d7e71b52f8\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\12a5f79f906733b274c5c1d7e71b52f8\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\3dfaf98722b66bb64cc1a25be82f9f9a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\3dfaf98722b66bb64cc1a25be82f9f9a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a8d9b1a8e7a8459e0b2abb9f1c9affb9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a8d9b1a8e7a8459e0b2abb9f1c9affb9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5953c2ca03ed5040b3416d9c117f253e\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\5953c2ca03ed5040b3416d9c117f253e\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6d1a65ac166cc3a84d62febb6da595e5\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\6d1a65ac166cc3a84d62febb6da595e5\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e3b303df9a82a2e250c91bfabc97cf0c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e3b303df9a82a2e250c91bfabc97cf0c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e7a8a791da13d2474c41b4814a7772dd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\e7a8a791da13d2474c41b4814a7772dd\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a7bba6a1f46630f82921211e83cdac77\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\DEATH DOCTOR\.gradle\caches\transforms-2\files-2.1\a7bba6a1f46630f82921211e83cdac77\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jessi\StudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DEATH DOCTOR\AndroidStudioProjects\course-project-ajany-a9\app\src\main\AndroidManifest.xml

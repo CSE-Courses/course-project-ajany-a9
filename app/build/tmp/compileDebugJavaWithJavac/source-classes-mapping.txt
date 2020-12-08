@@ -1,3 +1,6 @@
+com/example/beststudy/timeInspector.java
+ com.example.beststudy.timeBoolean
+ com.example.beststudy.timeInspector
 com/example/beststudy/AssignmentAdapter.java
  com.example.beststudy.AssignmentAdapter
  com.example.beststudy.AssignmentAdapter$1
@@ -12,6 +15,10 @@ com/example/beststudy/Course.java
  com.example.beststudy.Course
  com.example.beststudy.Course$1
  com.example.beststudy.CourseSet
+com/example/beststudy/ListButtonView.java
+ com.example.beststudy.ListButtonView
+ com.example.beststudy.ListButtonView$1
+ com.example.beststudy.ListButtonView$2
 com/example/beststudy/AssignmentItem.java
  com.example.beststudy.AssignmentItem
 com/example/beststudy/CalculateGpa.java
@@ -30,9 +37,6 @@ com/example/beststudy/BuildConfig.java
 com/example/beststudy/WeekSchedule.java
  com.example.beststudy.WeekSchedule
  com.example.beststudy.WeekSchedule$1
- com.example.beststudy.WeekSchedule$2
- com.example.beststudy.WeekSchedule$3
- com.example.beststudy.initialSchedule
 com/example/beststudy/Courseclick.java
  com.example.beststudy.Courseclick
  com.example.beststudy.Courseclick$1
@@ -47,10 +51,10 @@ com/example/beststudy/AssignmentScreen.java
  com.example.beststudy.AssignmentScreen$1$2
  com.example.beststudy.AssignmentScreen$2
  com.example.beststudy.AssignmentScreen$3
-com/example/beststudy/ProfessorActivity.java
- com.example.beststudy.ProfessorActivity
 com/example/beststudy/scheduleDatabase.java
  com.example.beststudy.scheduleDatabase
+com/example/beststudy/ProfessorActivity.java
+ com.example.beststudy.ProfessorActivity
 com/example/beststudy/CoursesDataBase.java
  com.example.beststudy.CoursesDataBase
 com/example/beststudy/CalenderReminders.java
