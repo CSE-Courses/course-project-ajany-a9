@@ -32,11 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="20dp" />
 
-        <ListView
-            android:id="@+id/CourseList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="All Courses" />
+
 
         <Space
             android:layout_width="match_parent"

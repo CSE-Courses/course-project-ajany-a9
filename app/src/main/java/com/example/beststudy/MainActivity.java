@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.Class.setOnClickListener(new View.OnClickListener(){
 
             public void onClick(View v) {
-                Intent i = new Intent (MainActivity.this, Courseclick.class);
+                Intent i = new Intent (MainActivity.this, Course.class);
                 startActivity(i);
 
             }

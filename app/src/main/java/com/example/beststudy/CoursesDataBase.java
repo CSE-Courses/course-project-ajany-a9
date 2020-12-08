@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class CoursesDataBase extends SQLiteOpenHelper {
     //Current database
     private static final String DatabaseName = " Courses.db";
-    //current database
+    //current database table
     private static final String currentTable = "Course_Table";
 
     //Database Schema

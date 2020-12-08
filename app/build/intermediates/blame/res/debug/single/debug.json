@@ -1,11 +1,15 @@
 [
     {
+        "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_courseclick.xml.flat",
+        "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_courseclick.xml"
+    },
+    {
         "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_courseclick.xml.flat",
-        "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_courseclick.xml"
+        "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_course_item.xml.flat",
+        "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/course_item.xml"
     },
     {
         "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_launcher_background.png.flat",
@@ -32,12 +36,12 @@
         "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/layout_activity_professor.xml.flat",
         "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/layout/activity_professor.xml"
+    },
+    {
+        "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/nelajebranch/StudioProjects/course-project-ajany-a9/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",

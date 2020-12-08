@@ -99,7 +99,7 @@ public class Courseclick extends AppCompatActivity implements View.OnClickListen
         };
         spannedZoomLink.setSpan(clickZoomLink, 0, linkEnd, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         zoomHolder.setText(spannedZoomLink);
-        String a = coursename + " " + profname + "\n" + coursetime + "-" + courseEndTime + courseDays ;
+        String a = coursename + " " + profname + "\n" + coursetime + "-" + courseEndTime +  " " + courseDays ;
         adapter.add(a);
 
     }

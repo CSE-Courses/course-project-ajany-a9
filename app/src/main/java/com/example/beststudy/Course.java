@@ -4,16 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TableLayout;
-import android.widget.TableRow;
-import android.widget.TextView;
+import android.widget.ListView;
 
+import java.nio.ShortBuffer;
 import java.util.ArrayList;
 
 /**
@@ -24,23 +22,6 @@ import java.util.ArrayList;
  *
  */
 
-class CourseSet{
-    public String courseName;
-    public String courseTime;
-    public String profName;
-    public String link;
-
-
-    public CourseSet(String c1, String c2, String c3, String c4){
-        this.courseName = c1;
-        this.courseTime = c2;
-        this.profName = c3;
-        this.link = c4;
-    }
-
-}
-
-
 public class Course extends AppCompatActivity {
     Button saved;
     /* Responses from text fields*/
@@ -50,6 +31,8 @@ public class Course extends AppCompatActivity {
     EditText zoomL;
     EditText endCourse;
     EditText courseD;
+    ListView AllInput;
+    CourseAdapter adapter;
     /* actual string values for tuple*/
     String courseNamestr;
     String courseTimestr;
@@ -58,7 +41,8 @@ public class Course extends AppCompatActivity {
     String profNamestr;
     String zoomLinkstr;
     /*ArrayList to hold courses until we have database*/
-    ArrayList<CourseSet> AllCourse = new ArrayList<>();
+    ArrayList<CourseDetail> AllCourse = new ArrayList<>();
+
    CoursesDataBase data;
 
 
@@ -75,7 +59,10 @@ public class Course extends AppCompatActivity {
         zoomL = findViewById(R.id.editTextZoomLink);
         endCourse = findViewById(R.id.editTextCourseEnd);
         courseD = findViewById(R.id.editTextCourseDay);
-        data.viewData();
+        AllInput = findViewById(R.id.CourseList);
+
+        ShowClasses();
+
 
         /*When the save button is pressed, the data is retrieved from the text fields
         new Tuple is created and save in ArrayList
@@ -84,24 +71,17 @@ public class Course extends AppCompatActivity {
         saved.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent save = new Intent(Course.this, Courseclick.class);
+
                 courseNamestr = courseN.getText().toString();
                 courseTimestr = courseT.getText().toString();
                 profNamestr = profN.getText().toString();
                 zoomLinkstr = zoomL.getText().toString();
                 courseEnd = endCourse.getText().toString();
                 courseDay = courseD.getText().toString();
-                CourseSet curr = new CourseSet(courseNamestr, courseTimestr, profNamestr, zoomLinkstr);
+                CourseDetail curr = new CourseDetail(courseNamestr, courseTimestr, courseEnd, profNamestr, zoomLinkstr, courseDay);
                 data.insertCourse(courseNamestr,courseTimestr, courseEnd, profNamestr, courseDay, zoomLinkstr);
                 AllCourse.add(curr);
-                save.putExtra("CourseName", courseNamestr);
-                save.putExtra("CourseTime", courseTimestr);
-                save.putExtra("ProfName", profNamestr);
-                save.putExtra("ZoomLink", zoomLinkstr);
-                save.putExtra("CourseDay", courseDay );
-                save.putExtra("CourseEndTime", courseEnd);
-                startActivity(save);
-                finish();
+                ShowClasses();
 
             }
         });
@@ -109,5 +89,10 @@ public class Course extends AppCompatActivity {
 
 
     }
+    public void ShowClasses(){
+        adapter = new CourseAdapter(this, AllCourse);
+        AllInput.setAdapter(adapter);
+    }
+
 
 }

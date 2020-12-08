@@ -1067,6 +1067,12 @@ id textSpacerNoTitle
 id textView
 id textView2
 id textView3
+id textView_ProfName
+id textView_courseDays
+id textView_courseEnd
+id textView_courseLink
+id textView_courseName
+id textView_courseStart
 id time
 id title
 id titleDividerNoCustom
@@ -1132,6 +1138,7 @@ layout activity_courses
 layout activity_grade
 layout activity_main
 layout activity_professor
+layout course_item
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
