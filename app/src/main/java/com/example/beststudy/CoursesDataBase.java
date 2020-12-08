@@ -22,7 +22,7 @@ public class CoursesDataBase extends SQLiteOpenHelper {
 
     private boolean startUp = true;
 
-    private static final String CREATE_TABLE = "CREATE TABLE "+ currentTable+" ("+ " INTEGER PRIMARY KEY, "+ CName + " TEXT," + StartTime + " TEXT,"+ EndTime + " TEXT," + Professor + " TEXT," + CourseDay + " TEXT," + Zoom+ " TEXT" + ")";
+    private static final String CREATE_TABLE = "CREATE TABLE "+ currentTable+" (id"+ " INTEGER PRIMARY KEY, "+ CName + " TEXT," + StartTime + " TEXT,"+ EndTime + " TEXT," + Professor + " TEXT," + CourseDay + " TEXT," + Zoom+ " TEXT" + ")";
 
     public CoursesDataBase(Context context){
         super(context, DatabaseName, null, 1);
@@ -48,26 +48,22 @@ public class CoursesDataBase extends SQLiteOpenHelper {
         cV.put(Professor, instructor);
         cV.put(CourseDay, day);
         cV.put(Zoom, links);
-        db.insert(currentTable, null, cV);
-        return true;
+       long result = db.insert(currentTable, null, cV);
+        return result!=-1;
     }
 
     public boolean removeCourse (String name){
         SQLiteDatabase db = this.getWritableDatabase();
         long removed = db.delete(currentTable, "CName=?", new String[]{name});
-        return true;
+        return removed>0;
     }
 
-    public void OnUpgrade(SQLiteDatabase db, int OldVersion, int NewVersion){
-        db.execSQL("DROP TABLE IF EXISTS " + currentTable);
-        onCreate(db);
-    }
 
     public Cursor viewData(){
         SQLiteDatabase db = this.getReadableDatabase();
         if(startUp){
             startUp = false;
-            OnUpgrade(db, 1, 1);
+            onUpgrade(db, 1, 1);
         }
         String query = "Select * from " + currentTable;
         Cursor cursor = db.rawQuery(query, null);

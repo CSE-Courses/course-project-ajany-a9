@@ -81,7 +81,7 @@ public class Course extends AppCompatActivity {
                 zoomLinkstr = zoomL.getText().toString() + " ";
                 courseEnd = endCourse.getText().toString() + " ";
                 courseDay = courseD.getText().toString() + " ";
-                CourseDetail curr = new CourseDetail(courseNamestr, courseTimestr, courseEnd, profNamestr, zoomLinkstr, courseDay);
+             //cit    CourseDetail curr = new CourseDetail(courseNamestr, courseTimestr, courseEnd, profNamestr, zoomLinkstr, courseDay);
                 if (data.insertCourse(courseNamestr, courseTimestr, courseEnd, profNamestr, courseDay, zoomLinkstr)) {
                     //AllCourse.add(curr);
                     courseN.setText("");
@@ -100,9 +100,9 @@ public class Course extends AppCompatActivity {
         AllInput.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                data.removeCourse(AllCourse.get(position).getClassName());
+                if(data.removeCourse(AllCourse.get(position).getClassName())){
                 AllCourse.remove(position);
-                adapter.notifyDataSetChanged();
+                adapter.notifyDataSetChanged();}
                //Toast.makeText(getApplicationContext(), "Course Deleted", Toast.LENGTH_SHORT).show();
                 return true;
             }
